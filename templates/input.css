@@ -65,6 +65,16 @@
       /* background-attachment: fixed; */
     }
 
+    .hover-scale {
+        transform: scale(1);
+        transition-property: inherit;
+        transition-duration: 300ms;
+        transition-timing-function: ease-out;
+      }
+      
+      .hover-scale-hover {
+        transform: scale(1.25);
+      }
 
 }
 
