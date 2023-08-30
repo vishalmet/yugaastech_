@@ -19,11 +19,12 @@ from yugaas import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.ourservices, name='ourservices'),
+    path('', views.home, name='home'),
     path('OurServices/', views.ourservices, name='ourservices'),
     path('HumanResourceManagement/', views.humanresource, name='HumanResourceManagement'),
     path('TechnologyServices/', views.technologyservices, name='TechnologyServices'),
     path('CyberSecurityServices/', views.cybersecurityservices, name='CyberSecurityServices'),
     path('LearningAcademy/', views.learningacademy, name='LearningAcademy'),
     path('Career/', views.career, name='Career'),
+    path('Home/', views.home, name='Home'),
 ]

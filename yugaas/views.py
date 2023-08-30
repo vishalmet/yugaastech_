@@ -13,3 +13,5 @@ def learningacademy(request):
     return render(request,"learningacademy.html")
 def career(request):
     return render(request,"career.html")
+def home(request):
+    return render(request,"home.html")
