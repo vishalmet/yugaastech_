@@ -27,4 +27,5 @@ urlpatterns = [
     path('LearningAcademy/', views.learningacademy, name='LearningAcademy'),
     path('Career/', views.career, name='Career'),
     path('Home/', views.home, name='Home'),
+    path('About/', views.about, name='About'),
 ]

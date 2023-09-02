@@ -15,3 +15,5 @@ def career(request):
     return render(request,"career.html")
 def home(request):
     return render(request,"home.html")
+def about(request):
+    return render(request,"aboutus.html")
