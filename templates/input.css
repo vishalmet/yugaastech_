@@ -46,6 +46,12 @@
       width: auto; */
     }
 
+    .home-bg {
+      background-image: url("https://user-images.githubusercontent.com/111877553/264686172-79e7a3c0-9406-48cd-966d-4c99a1b6a97b.png");
+      height: max-content; 
+      background: cover;
+    }
+
     .hero {
       /* Set the background image URL here */
     
@@ -65,7 +71,24 @@
       /* background-attachment: fixed; */
     }
 
+    .hover-scale {
+        transform: scale(1);
+        transition-property: inherit;
+        transition-duration: 300ms;
+        transition-timing-function: ease-out;
+      }
+      
+      .hover-scale-hover {
+        transform: scale(1.25);
+      }
 
+      .gradient-text {
+        background-clip: text;
+        -webkit-background-clip: text; /* For Safari/WebKit browsers */
+        color: transparent;
+        background-image: linear-gradient(to right, #ff00cc, #3333ff); /* Replace with your desired gradient colors */
+      }
+      
 }
 
 
