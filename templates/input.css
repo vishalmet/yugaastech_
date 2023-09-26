@@ -52,6 +52,14 @@
       background: cover;
     }
 
+    .logo-bg {
+      background-image: url("../templates/images/logobg3.png");
+      height: max-content;
+      width: auto;
+      background: cover;
+      background-repeat: no-repeat;
+    }
+
     .hero {
       /* Set the background image URL here */
     
