@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
     <link rel = "icon" href = "../templates/images/Logo.png" type = "image/x-icon">
@@ -16,28 +17,28 @@
       <div class="sticky top-0 border-b shadow-sm bg-white z-30">
         <nav class="flex items-center gap-28 ">
             <!-- left -->
-            <div class="flex items-center space-x-4 pt-3 pl-6 pr-[13px]">
+            <div class="flex items-center space-x-4 pt-3 pl-6 pr-3">
                 <img class=" h-20 cursor-pointer" src="../templates/images/Logo.jpg" alt="logo">
                 <p class=" hidden lg:inline font-bold text-3xl text-blue-800 ">yugaas<span class=" font-bold" style="color: #FFA500;">tech</span></p>
             </div>
             <!-- middle -->
             <ul class="flex  items-center space-x-10 font-bold cursor-pointer text-[18px] ">
                 <li><a href="../Home">Home</a></li>
-                <li class="underline hover:scale-110 transition-shadow duration-150 ease-out " style="color: #FFA500;"><a href="../About"> About Us</a></li>
+                <li class="underline hover:scale-110 transition-shadow duration-150 ease-out " style="color: #FFA500;"  ><a href="../About"> About Us</a></li>
                 <li><a href="../OurServices">Our Services</a></li>
                 <li class="hidden md:inline">Our Products</li>
                 <li><a href="../Career">Careers</a></li>
                 <li>Contact Us</li>
             </ul>
             <!-- right -->
-            <div class=" pr-[57px] pl-5 cursor-pointer">
+            <div class=" pr- pl-5 cursor-pointer">
             <img class=" h-12 rounded-full flex-shrink-0  " src="../templates/images/avatar.png" alt="profile">
             </div>
         </nav>
   </div>
-  <div class="relative">
-    <img src="..\templates\images\Rectangle 379.png" alt="" class="w-full">
-    <div class="absolute top-20 right-0 w-1/2 h-full p-12">
+  <div class="relative top-0 border-b shadow-sm  z-25">
+    <img class="w-full h-max " src="..\templates\images\Rectangle379.png" alt="" >
+    <!-- <div class="absolute top-20 right-0 w-1/2 h-full p-12">
         <h1 class="font-bold text-5xl" style="color: #FFA500; ">About our company</h1><br>
         <div class="mt-4 text-white font-bold text-3xl" style="font-size: 20px;">
             Founding in 2020, passion-driven approach, and the commitment to quality.
@@ -45,26 +46,32 @@
             Introduce the expert panel of esteemed mentors from CXO positions who
             review deliverables.
         </div>
+    </div> -->
+    <div class="absolute top-20 right-0 pr-60 mt-28 ">
+        <p class=" font-bold tracking-wide text-6xl shadow-sm" style="color: #FFA500;" >About our Company</p>
+        <p class=" font-semibold tracking-wide text-4xl text-white mt-8">
+            Founding in 2020, passion-driven <br> approach, and the commitment to quality. <br>
+            Mention the focus on AI-based tech-driven <br> platforms and disruptive pricing. <br>
+            Introduce the expert panel of esteemed <br> mentors from CXO positions who <br>
+            review deliverables. 
+        </p>
     </div>
-    <img class="absolute top-40 left-40 w-30" src="..\templates\images\Ellipse 30.png" alt="">
+    <img class="absolute top-56 left-40 w-30" src="..\templates\images\Ellipse 30.png" alt="">
 </div>
-
-
-<div class="flex justify-center items-center h-full ">
-    <div class="text-center p-8  text-black">
-        <h2 class="font-bold text-4xl" >Company Overview</h2>
-        <div class="mt-2 text-xl" style="color: #7A83A6;">Empowering Excellence Through Technology and HR Solutions</div>
-    </div>
-</div>
-
-<div class="flex">
-    <img src="..\templates\images\Rectangle 9.png" alt="" class="w-40 md:w-80 p-4">
-    <div class="p-4 md:p-8 text-2xl text-justify mx-12">
-        <p>Welcome to Yugaas Tech, a technology and HR solutions provider that was founded in the year 2020 with a mission to transform businesses and empower individuals through the power of technology. At Yugaas Tech, we bring together a perfect blend of youthful innovation and matured expertise, fueled by a passion for excellence. We have swiftly carved a niche for ourselves as a trusted partner for businesses and organizations seeking transformative solutions to stay ahead in the digital age.</p>
-    </div>
-</div>
-
+    <!-- 1 -->
+    <div class="pb-10 top-0 border-b shadow-sm  z-25 ">
+        <div class=" flex flex-col pt-10 ">
+            <p class=" font-bold text-6xl text-blue-700 flex justify-center text-shadow-xs">Company Overview</p>
+            <p class=" pt-6 font-medium text-4xl flex justify-center">Empowering excellence through technology and HR solutions</p>
         </div>
+        <div class=" pl-20 pr-20 pt-10 flex ">
+            <img class="" src="./images/Rectangle 9.png" alt="">
+            <p class=" font-normal tracking-wide text-3xl pl-10">Welcome to Yugaas Tech, a technology and HR solutions provider that was founded in the year 2020 with a mission to transform businesses and empower individuals through the power of technology. At Yugaas Tech, we bring together a perfect blend of youthful innovation and matured expertise, fueled by a passion for excellence. We have swiftly carved a niche for ourselves as a trusted partner for businesses and organizations seeking transformative solutions to stay ahead in the digital age.</p>
+        </div>
+    </div>
+
+    <!-- 2 -->
+        <!-- </div>
         <br>
         <div class="flex justify-center items-center h-full">
             <div class="text-center">
@@ -77,122 +84,120 @@
                     to delivering tech-driven solutions that empower our clients to achieve their aspirations.
                 </div>
             </div>
-        </div>
-        
-        <div class="flex justify-center items-center h-full">
-            <div class="text-center">
-                <div class="text-yellow-500 text-3xl mb-2 font-bold m-12" style="color: #B9AA28;font-size: 30px;">  Tech Transformation, Empowered Futures</div>
-            
-            <h4 class="mb-2 text-xl "style="color: #7A83A6;">Our vision is ambitious and far-reaching - "Tech Transformation, Empowered Futures.</h4>
-            <div class="text-justify p-8 text-2xl mx-12">" We envision a world where businesses harness the full potential of technology to revolutionize their industries, drive innovation, and create a better future for all. We see ourselves as catalysts for this transformation, empowering our clients to embrace change and stay at the forefront of progress."
-                
-                </div>
-            </div>
-        </div>
-        <div class="flex justify-center items-center h-full">
-            <div class="text-center">
-        <div class="text-yellow-500 text-3xl mb-2 font-bold" style="color: #B9AA28;font-size: 30px;">Innovation and Expertise</div>
-        <h4 class="mb-2 text-xl"style="color: #7A83A6;">Our driving forces</h4>
-        <div class="text-justify p-8 text-2xl mx-12">Innovation is ingrained in our DNA. We constantly explore emerging technologies, trends, and industry best practices to offer cutting-edge solutions that push the boundaries of what's possible. Our team of skilled professionals, technologists, and domain experts bring a diverse range of expertise, enabling us to deliver tailored solutions that perfectly align with our clients' specific needs.
+        </div> -->
+    <div class="pb-10 top-0 border-b shadow-sm  z-25">
+        <div class=" flex flex-col pt-10 ">
+            <p class=" text-6xl font-bold text-shadow-xs flex justify-center" style="color: #FFA500;"> Our purpose</p>
+            <p class=" text-4xl font-semibold pt-6 flex justify-center">Empowering Growth and Success</p>
+            <p class=" font-normal pt-10 text-3xl tracking-wide pl-20 pr-20">At the core of our existence lies a compelling purpose - to empower growth and success.
+                We firmly believe that technology has the power to catalyze positive change, elevate businesses,
+                and unlock boundless opportunities. With this belief fueling our endeavors, we are dedicated
+                to delivering tech-driven solutions that empower our clients to achieve their aspirations.</p>
         </div>
     </div>
-</div>
         
-<div class="flex justify-center items-center h-full">
-    <div class="text-center">
-            <div class="text-yellow-500 text-3xl mb-2 font-bold" style="color: #B9AA28;font-size: 30px;">Unwavering Commitment to Excellence </div>
-            <div class="text-justify p-8 text-2xl mx-12">
-                Excellence is the cornerstone of our approach. We set high standards for ourselves, and we don't settle for anything less than exceptional. Our solutions undergo rigorous quality testing and refinement to ensure they meet the highest benchmarks. Our dedication to excellence permeates every aspect of our services, from initial consultation to project delivery and ongoing support.
-                </div></div>
-        </div>
-        <div class="flex justify-center items-center h-full">
-            <div class="text-center">
-            <h1 class="font-bold text-3xl" style="font-size: 30px;color: black;">Customer-Centric Partnerships 
-                At Yugaas Tech,  </h1>
-                <div class="text-justify p-8 text-2xl mx-12">we firmly believe that our clients' success is our success. We prioritize building strong and enduring relationships with our clients based on trust, transparency, and mutual growth. We take the time to understand our clients' unique challenges and goals, tailoring our solutions to address their specific pain points and opportunities. Our customer-centric approach ensures that our clients feel supported, heard, and valued throughout their journey with us.
-               
-                    <div class="text-justify ">
-                   Join the Yugaas Tech Journey 
-                      Whether you are a large enterprise or a budding startup, we invite you to embark on the Yugaas Tech journey. Let's collaborate to unlock your full potential, leverage technology to its fullest, and achieve remarkable success. Together, we can navigate the complexities of the digital landscape and embrace a future of limitless possibilities.
-                    As we continue to drive tech transformation and empower businesses, Yugaas Tech remains committed to being a reliable and forward-looking partner for organizations worldwide. Join us in shaping a world where technology empowers and elevates everyone's potential.
-                    Empower Your Excellence. Choose Yugaas Tech.
-                    </div>
-                    
-                    </div>
-        </div>
-    </div>
-    <div class="relative text-center">
-        <img src="../templates/images/Rectangle 373.png" alt="">
-        <div class="absolute top-0 left-0 p-4">
-          <h1 class="text-white text-3xl font-bold" style="font-size: 30px;">Vision and mission</h1><br>
-          <div class="text-white text-xl" style="color: gray;">
-            Vision: Empowering Tech Transformation, Enabling Empowered Futures
-          </div><br><br>
-          <div class="text-white text-2xl font-size p-4 text-justify mx-12">At Yugaas Tech, our vision is to lead the way in "Empowering Tech Transformation, Enabling Empowered Futures." We believe that technology is not just a tool but a catalyst for positive change. We envision a world where businesses and individuals leverage the full potential of technology to evolve, adapt, and thrive in an ever-changing landscape.
-Our vision goes beyond simply offering technology solutions; it encapsulates our commitment to driving meaningful transformation. We aspire to be the driving force behind our clients' success, empowering them with innovative and tailor-made solutions that create lasting impact and foster growth.<br />
-With a firm belief in the power of technology to create a better future, our vision guides us in pushing boundaries, exploring new frontiers, and staying at the forefront of industry advancements. We seek to inspire, innovate, and empower, building a world where technology becomes an enabler of dreams and aspirations.
-</div>
-        </div>
-      </div><br><br>
-    <div class="text-justify ">
-        <h1 class="text-black text-3xl text-center font-bold ">Mission: Empowering Excellence Through Tech-Driven Solutions
-        </h1>
-        <div class="p-4 text-2xl mx-12" >At Yugaas Tech, our mission is clear and purposeful - to empower excellence through tech-driven solutions. We are dedicated to delivering transformative technology and HR solutions that enable businesses to unleash their true potential and achieve excellence in every endeavour.
+    <div class="pb-10 top-0 border-b shadow-sm  z-25">
+        <div class=" flex flex-col pt-10 ">
+            <p class=" text-6xl font-bold text-shadow-xs flex justify-center" style="color: #FFA500;">Tech Transformation,<span class="text-blue-700"> Empowered Futures </span></p>
+            <p class=" text-4xl font-semibold pt-6 flex justify-center">Our vision is ambitious and far-reaching </p>
+            <p class=" font-normal pt-10 text-4xl tracking-wide pl-20 pr-20">We envision a world where businesses harness the full potential of technology to revolutionize their industries, drive innovation, and create a better future for all. We see ourselves as catalysts for this transformation, empowering our clients to embrace change and stay at the forefront of progress.</p>
         </div>
     </div>
 
-    <div >
-        <h1 class="text-black text-2xl text-center font-bold">Our mission is anchored in three key pillars:
-        </h1><br>
-        <div class="flex p-8" style="padding-left: 20%;">
-            <div class="relative flex-1">
-                <div class="w-1/2">
-                    <img src="../templates/images/Rectangle 155.png" alt="" class="w-full h-auto">
+    <div class="pb-10 top-0 border-b shadow-sm  z-25">
+        <div class=" flex flex-col pt-10 ">
+            <p class=" text-6xl font-bold text-shadow-xs flex justify-center text-blue-700">Innovation and Expertise</p>
+            <p class=" text-4xl font-semibold pt-6 flex justify-center">Our driving forces</p>
+            <p class=" font-normal pt-10 text-3xl tracking-wide pl-20 pr-20">
+                Innovation is ingrained in our DNA. We constantly explore emerging technologies, trends, and industry best practices to offer cutting-edge solutions that push the boundaries of what's possible. Our team of skilled professionals, technologists, and domain experts bring a diverse range of expertise, enabling us to deliver tailored solutions that perfectly align with our clients' specific needs.
+            </p>
+        </div>
+    </div>
+
+    <div class="pb-10 top-0 border-b shadow-sm  z-25">
+        <div class=" flex flex-col pt-10 ">
+            <p class=" text-6xl font-bold text-shadow-xs flex justify-center" style="color: #FFA500;">Unwavering Commitment to  <span class="text-blue-700 pl-2">Excellence </span></p>
+            <p class=" font-normal pt-10 text-3xl tracking-wide pl-20 pr-20">
+                Excellence is the cornerstone of our approach. We set high standards for ourselves, and we don't settle for anything less than exceptional. Our solutions undergo rigorous quality testing and refinement to ensure they meet the highest benchmarks. Our dedication to excellence permeates every aspect of our services, from initial consultation to project delivery and ongoing support.
+            </p>
+        </div>
+    </div>
+
+    <div class="pb-10 top-0 border-b shadow-sm  z-25">
+        <div class=" flex flex-col pt-10 ">
+            <p class=" text-6xl font-bold text-shadow-xs flex justify-center text-blue-700">Customer-Centric <span class="pl-2" style="color: #FFA500;">Partnerships </span> </p>
+            <p class=" font-normal pt-10 text-3xl tracking-wide pl-20 pr-20">
+                Join the <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span> Journey Whether you are a large enterprise or a budding startup, we invite you to embark on the Yugaas Tech journey. Let's collaborate to unlock your full potential, leverage technology to its fullest, and achieve remarkable success. Together, we can navigate the complexities of the digital landscape and embrace a future of limitless possibilities. As we continue to drive tech transformation and empower businesses, Yugaas Tech remains committed to being a reliable and forward-looking partner for organizations worldwide. Join us in shaping a world where technology empowers and elevates everyone's potential. Empower Your Excellence. Choose <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span>.
+            </p>
+        </div>
+    </div>
+
+    <div class=" bg-full">
+       <div class="  pb-10 top-0 border-b shadow-sm  z-25">
+            <p class=" text-6xl font-bold text-blue-700 text-shadow-xs flex justify-center tracking-wide pt-10"> Vision <span class="text-black pl-2"> and</span> <span class=" pl-2" style="color: #FFA500;"> Mission</span></p>
+            <p class=" font-bold tracking-wide text-5xl flex justify-center">Vision: <span class=" font-medium text-4xl pt-2 pl-2"> Empowering Tech Transformation, Enabling Empowered Futures</span></p>
+            <p class=" font-normal tracking-wide text-3xl pt-10 pl-20 pr-20">At <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span>, our vision is to lead the way in <span class="font-medium">"Empowering Tech Transformation, Enabling Empowered Futures"</span> We believe that technology is not just a tool but a catalyst for positive change. We envision a world where businesses and individuals leverage the full potential of technology to evolve, adapt, and thrive in an ever-changing landscape. <br> <br>
+                Our vision goes beyond simply offering technology solutions; it encapsulates our commitment to driving meaningful transformation. We aspire to be the driving force behind our clients' success, empowering them with innovative and tailor-made solutions that create lasting impact and foster growth. <br> <br>
+                With a firm belief in the power of technology to create a better future, our vision guides us in pushing boundaries, exploring new frontiers, and staying at the forefront of industry advancements. We seek to inspire, innovate, and empower, building a world where technology becomes an enabler of dreams and aspirations.</p>
+            <div class="pt-10">
+                <p class=" font-bold tracking-wide text-5xl flex justify-center">Mission: <span class=" font-medium text-4xl pt-2 pl-2"> Empowering Excellence Through Tech-Driven Solutions</span></p>
+                <p class=" font-normal tracking-wide text-3xl pt-10 pl-20 pr-20">
+                    At <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span>, our mission is clear and purposeful - to empower excellence through tech-driven solutions. We are dedicated to delivering transformative technology and HR solutions that enable businesses to unleash their true potential and achieve excellence in every endeavour.
+                </p>
+            </div>    
+        </div>
+    </div>
+
+    <div class="pb-10 top-0 border-b shadow-sm  z-25">
+        <div class="pt-10">
+            <p class="text-6xl text-shadow-xs tracking-wide text-blue-700 font-bold flex justify-center"> Our mission is anchored in three key pillars:</p>
+            <div class="flex pl-20 pr-20 pt-20">
+                <div class=" flex flex-col pr-10">
+                    <p class=" text-3xl font-semibold flex justify-center tracking-wide">Excellence in Innovation</p>
+                    <p class="text-2xl font-normal flex justify-center pt-4 ">We thrive on innovation and are constantly on the lookout for emerging technologies and industry best practices. Our team of experts collaborates to craft cutting-edge solutions that address our clients' unique challenges and drive meaningful results. We see innovation as a powerful tool to create competitive advantages and open new horizons for our clients.
+                    </p>
                 </div>
-                <div class="absolute inset-0 flex flex-col justify-center items-center bg-opacity-50 text-white w-1/2 ">
-                    <div class="text-xl font-bold p-2 " style="padding-top: 20px;">Excellence in Innovation</div>
-                    <div class="p-3" style="font-size: 12.5px;font-weight: none;">
-                        We thrive on innovation and are constantly on the lookout for emerging technologies and industry best practices. Our team of experts collaborates to craft cutting-edge solutions that address our clients' unique challenges and drive meaningful results. We see innovation as a powerful tool to create competitive advantages and open new horizons for our clients.
-                    </div>
-                </div>
-            </div>
-        
-            <div class="relative flex-1">
-                <div class="w-1/2">
-                    <img src="../templates/images/Rectangle 156.png" alt="" class="w-full h-auto">
-                </div>
-                <div class="absolute inset-0 flex flex-col justify-center items-center bg-opacity-50 text-white w-1/2 ">
-                    <div class="text-xl font-bold ">Customer-Centric Approach</div>
-                    <div class="p-4" style="font-size: 12px;font-weight: none;">
+                <div class=" flex flex-col pl-10">
+                    <p class=" text-3xl flex justify-center font-semibold tracking-wide">Customer-Centric Approach</p>
+                    <p class="text-2xl font-normal flex justify-center pt-4">
                         Our clients are at the heart of everything we do. We believe in building strong and enduring partnerships based on trust, transparency, and collaboration. By taking the time to understand our clients' specific needs and aspirations, we tailor our solutions to deliver exceptional value and create lasting impact.
-                    </div>
+                    </p>
                 </div>
             </div>
-        </div>    
-    </div>
-    <div class="relative">
-        <img src="../templates/images/Rectangle 157.png" alt="" class="w-full h-auto">
-        <div class="absolute inset-0 flex flex-col justify-start items-center text-white text-center p-4 lg:p-8">
-            <h1 class="text-4xl font-bold text-gray-400 mb-4" style="color: #7A83A6;">Unwavering Commitment to Excellence</h1>
-          <br> 
-           <div class="mb-4 text-xl text-justify mx-12" style="color: #B9AA28;">Excellence is the bedrock of our mission. From conceptualization to delivery, we hold ourselves to the highest standards of quality and precision. We leave no stone unturned to ensure that our solutions not only meet but exceed our clients' expectations, driving them towards success and growth.</div><br>
-           <br>
-           <div class="text-justify text-xl mx-12">Our mission is a testament to our dedication to being a catalyst for our clients' success, propelling them towards empowered futures through transformative tech solutions. At Yugaas Tech, we are on a relentless pursuit of our vision and mission, embracing the power of technology to transform businesses, empower individuals, and shape a better, brighter future for all. With innovation, customer-centricity, and excellence as our guiding principles, we stand poised to make a positive impact on the world through technology-enabled empowerment. growth, learning, and creativity. By empowering our team members, we ensure exceptional service delivery and sustainable success.</div>
+            <div class=" flex flex-col pt-10 pl-72 pr-72">
+                <p class=" text-3xl flex justify-center font-semibold tracking-wide">Unwavering Commitment to Excellence</p>
+                <p class="text-2xl font-normal flex justify-center pt-4">
+                    Our mission is a testament to our dedication to being a catalyst for our clients' success, propelling them towards empowered futures through transformative tech solutions. At Yugaas Tech, we are on a relentless pursuit of our vision and mission, embracing the power of technology to transform businesses, empower individuals, and shape a better, brighter future for all. With innovation, customer-centricity, and excellence as our guiding principles, we stand poised to make a positive impact on the world through technology-enabled empowerment. growth, learning, and creativity. By empowering our team members, we ensure exceptional service delivery and sustainable success.</div>
+                </p>
+            </div>
         </div>
     </div>
-    <div class="relative">
-        <img src="../templates/images/Rectangle 152.png" alt="" class="w-full h-auto mt-3">
-        <div class="absolute inset-0 flex flex-col justify-start items-center text-white text-center p-4 lg:p-8 mx-12">
-            <h1 class="text-4xl font-bold text-gray-400 mb-4" style="color: #7A83A6;">Our Logo</h1>
-            <div class="mb-4 text-xl text-justify" style="color: #B9AA28;">Explaining Our Logo: Elevating Potential, Empowering Success</div><br>
-            <div class="text-justify text-xl mx-12">Our logo is a symbol that represents the very essence of Yugaas Tech and the profound impact we strive to create in the world of technology and HR solutions. Let's delve into the elements and the underlying meaning of our logo:</div><br><br><br><br><br>
-            <div class="text-justify text-xl"><b>The Elephant Head:</b> At the heart of our logo stands the majestic and revered elephant head. The elephant is a symbol of strength, wisdom, and reliability. It embodies the core values that define Yugaas Tech as a company - our unwavering strength to face challenges, the wisdom to craft innovative solutions, and the reliability to consistently deliver exceptional results. This portrayal of an elephant head reflects our commitment to shouldering responsibilities with ease and confidence, making our clients' needs our top priority.</div><br>
-            <div class="text-justify text-xl"><b>The Wings:</b> The addition of wings to the elephant head introduces a transformative element to our logo. These wings symbolize our commitment to elevating our clients' potential and empowering their success. Just like the wings enable flight, our technology-driven solutions propel businesses to soar to new heights and achieve unprecedented growth. The wings also represent freedom, signifying the liberation from conventional boundaries, and encouraging a limitless pursuit of possibilities.</div><br>
-            <div class="text-justify text-xl"><b>Carrying Responsibility with Joy:</b> The joyful expression of the elephant in our logo represents our approach to embracing responsibilities with enthusiasm and a positive spirit. We understand that every task we take on is an opportunity to create a positive impact, and we carry each responsibility with genuine delight. Our clients' success is our success, and our logo conveys our unwavering commitment to carrying their goals and aspirations with a smile.</div><br>
-            <div class="text-justify text-xl"><b>Empowering Futures:</b> Ultimately, our logo serves as a visual testament to our vision - "Tech Transformation, Empowered Futures." It encapsulates our purpose to empower businesses, organizations, and individuals with the transformative power of technology. Yugaas Tech is driven by the belief that technology has the potential to revolutionize industries and elevate human potential. Through our expertise and innovative solutions, we empower our clients to embrace change, embrace success, and create a brighter future for themselves and their stakeholders.</div>
-            <div class="text-justify text-xl">As we look at our logo, we are reminded of the responsibility and honor it is to be entrusted with our clients' dreams and aspirations. We are dedicated to leveraging technology, fostering innovation, and supporting our clients on their journey to success. Our logo serves as a reminder of our commitment to stand strong, innovate relentlessly, and make our clients' aspirations take flight. With the strength of an elephant and the freedom of wings, Yugaas Tech is poised to make a difference in the world of technology and beyond, empowering businesses and individuals to achieve extraordinary feats.</div>
+   
+    <div class=" logo-bg">
+        <div class="pb-10 top-0 border-b shadow-sm  z-25">
+            <div class="pt-10 pl-20 pr-20">
+                <p class=" text-6xl tracking-wide text-shadow-xs font-bold flex justify-center" style="color: #FFA500;"> Our <span class=" text-blue-700 pl-2"> Logo</span></p>
+                <p class=" text-4xl tracking-wide flex justify-center pt-6 font-medium ">Explaining Our Logo: <span class="font-normal text-4xl pl-2">Elevating Potential, Empowering Success</span></p>
+                <p class=" text-3xl font-normal pt-6 ">Our logo is a symbol that represents the very essence of <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span> and the profound impact we strive to create in the world of technology and HR solutions. Let's delve into the elements and the underlying meaning of our logo: </p>
+                <p class="  text-3xl font-bold pt-6 text-blue-700">The Elephant Head: <span class=" text-2xl pb-2 font-medium text-black ">
+                    At the heart of our logo stands the majestic and revered elephant head. The elephant is a symbol of strength, wisdom, and reliability. It embodies the core values that define Yugaas Tech as a company - our unwavering strength to face challenges, the wisdom to craft innovative solutions, and the reliability to consistently deliver exceptional results. This portrayal of an elephant head reflects our commitment to shouldering responsibilities with ease and confidence, making our clients' needs our top priority.
+                </span> </p>
+                <p class="  text-3xl font-bold pt-6 text-blue-700">The Wings: <span class=" text-2xl pb-2 font-medium text-black ">
+                    The addition of wings to the elephant head introduces a transformative element to our logo. These wings symbolize our commitment to elevating our clients' potential and empowering their success. Just like the wings enable flight, our technology-driven solutions propel businesses to soar to new heights and achieve unprecedented growth. The wings also represent freedom, signifying the liberation from conventional boundaries, and encouraging a limitless pursuit of possibilities.
+                </span> </p>
+                <p class="  text-3xl font-bold pt-6 text-blue-700">Carrying Responsibility with Joy: <span class=" text-2xl pb-2 font-medium text-black ">
+                    The joyful expression of the elephant in our logo represents our approach to embracing responsibilities with enthusiasm and a positive spirit. We understand that every task we take on is an opportunity to create a positive impact, and we carry each responsibility with genuine delight. Our clients' success is our success, and our logo conveys our unwavering commitment to carrying their goals and aspirations with a smile.
+                </span> </p>
+                <p class="  text-3xl font-bold pt-6 text-blue-700">Empowering Futures: <span class=" text-2xl pb-2 font-medium text-black ">
+                    Ultimately, our logo serves as a visual testament to our vision - "Tech Transformation, Empowered Futures." It encapsulates our purpose to empower businesses, organizations, and individuals with the transformative power of technology. Yugaas Tech is driven by the belief that technology has the potential to revolutionize industries and elevate human potential. Through our expertise and innovative solutions, we empower our clients to embrace change, embrace success, and create a brighter future for themselves and their stakeholders.
+                </span> </p>
+                <p class="  text-3xl font-bold pt-6 text-black">
+                    As we look at our logo, we are reminded of the responsibility and honor it is to be entrusted with our clients' dreams and aspirations. We are dedicated to leveraging technology, fostering innovation, and supporting our clients on their journey to success. Our logo serves as a reminder of our commitment to stand strong, innovate relentlessly, and make our clients' aspirations take flight. With the strength of an elephant and the freedom of wings, Yugaas Tech is poised to make a difference in the world of technology and beyond, empowering businesses and individuals to achieve extraordinary feats.
+                </p>
+            </div>
         </div>
     </div>
+    <!--     
 <div class="relative">
     <img src="../templates/images/Rectangle 372.png" alt="" class='mt-3'>
     <div class="absolute inset-0 flex flex-col justify-start items-center text-white text-center p-4 lg:p-8">

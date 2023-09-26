@@ -81,7 +81,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css" : "npx tailwindcss build -i templates/input.css -o templates/output.css --watch"
   },
-  "author": "Deepak",
+  "author": "yugaastech",
   "license": "ISC",
   "description": ""
 }
