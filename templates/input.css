@@ -46,12 +46,6 @@
       width: auto; */
     }
 
-    .home-bg {
-      background-image: url("https://user-images.githubusercontent.com/111877553/264686172-79e7a3c0-9406-48cd-966d-4c99a1b6a97b.png");
-      height: max-content; 
-      background: cover;
-    }
-
     .logo-bg {
       background-image: url("../templates/images/logobg3.png");
       height: max-content;
