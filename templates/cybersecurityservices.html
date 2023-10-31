@@ -7,28 +7,73 @@
     <title>Cyber Security Services</title>
 </head>
 <body>
-    <div class="sticky top-0 border-b shadow-sm bg-white z-30">
-        <nav class="flex items-center justify-between mx-3">
-            <!-- left -->
-            <div class="flex items-center space-x-4 pt-3 pl-6 pr-[13px]">
-                <img class=" h-20 cursor-pointer" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Logo.jpg?raw=true" alt="logo">
-                <p class=" hidden lg:inline font-bold text-3xl text-blue-800 ">yugaas<span class=" font-bold" style="color: #FFA500;">tech</span></p>
-            </div>
-            <!-- middle -->
-            <ul class="flex  items-center space-x-10 font-bold cursor-pointer text-[18px] ">
-                <li><a href="../Home">Home</a></li>
-                <li><a href="../About"> About Us</a></li>
-                <li class="underline hover:scale-110 transition-shadow duration-150 ease-out " style="color: #FFA500;"><a href="../OurServices">Our Services</a></li>
-                <li><a href="../Career">Careers</a></li>
-                <li><a href="../Contactus">Contact Us</a></li>
-            </ul>
-            <!-- right -->
-            <div class=" pr-[57px] pl-5 cursor-pointer">
-            <img class=" h-12 rounded-full flex-shrink-0  " src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/avatar.png?raw=true" alt="profile">
-            </div>
-        </nav>
-    </div>
-    <div style="background-image: url('https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/cyber.png');">
+   <!-- navbar start -->
+        <div class="sticky top-0 border-b shadow-sm bg-white z-30">
+            <nav class="flex items-center justify-between mx-4">
+                <!-- left -->
+                <div class="flex items-center space-x-4 pt-3">
+                    <img class="h-20 cursor-pointer" src="https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Logo.jpg?raw=true" alt="logo">
+                </div>
+                <ul class="hidden lg:inline lg:flex text-lg font-bold px-10">
+                    <div class="md:flex">
+                        <li class="py-1"><a href="../Home">Home</a></li>
+                        <li class="px-3 py-1"><a href="../About"> About Us</a></li>
+                        <li class="underline hover:scale-110 transition-shadow duration-150 ease-out py-1" style="color: #FFA500;"><a href="../OurServices">Our Services</a></li>
+                        <li class="px-3 py-1"><a href="../Career">Careers</a></li>
+                        <li class="px-3 py-1"><a href="../Contactus">Contact Us</a></li>
+                    </div>
+                </ul>
+                <!-- mobile burger icon -->
+                <div class="lg:hidden cursor-pointer" id="mobile-menu-button">
+                    <svg class="h-6 w-6 burger" fill="none" stroke="black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Background overlay for mobile menu (100px from the top) -->
+        <div id="bg-overlay" class="fixed top-0 left-0 right-0 bg-white opacity-0 transition-opacity duration-300 h-[100hv] lg:bg-transparent lg:pt-0"></div>
+
+        <!-- Mobile menu links with black text (initially displayed on lg:screen) -->
+        <ul id="menu-list-mobile" class="pt-32 flex flex-col text-lg font-bold px-10 absolute top-0 left-0 right-0 h-screen bg-white transform -translate-y-[500hv] transition-transform duration-300 hidden">
+            <li class="py-1"><a href="../Home">Home</a></li>
+            <li class="py-1"><a href="../About"> About Us</a></li>
+            <li class="underline hover:scale-110 transition-shadow duration-150 ease-out py-1" style="color: #FFA500;"><a href="../OurServices">Our Services</a></li>
+            <li class="py-1"><a href="../Career">Careers</a></li>
+            <li class="py-1"><a href="../Contactus">Contact Us</a></li>
+        </ul>
+
+        <script>
+            const mobileMenuButton = document.getElementById("mobile-menu-button");
+            const menuListMobile = document.getElementById("menu-list-mobile");
+            const bgOverlay = document.getElementById("bg-overlay");
+            const burgerIcon = document.querySelector(".burger");
+            let isOpen = false;
+
+            mobileMenuButton.addEventListener("click", () => {
+                isOpen = !isOpen;
+                if (isOpen) {
+                    // Change the icon to a cross (X)
+                    burgerIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>`;
+                    // Show the mobile menu and set the background color to white
+                    menuListMobile.classList.remove("hidden");
+                    menuListMobile.classList.add("translate-y-0");
+                    bgOverlay.classList.remove("opacity-0");
+                    // Scroll to the top of the page
+                    window.scrollTo(0, 0);
+                } else {
+                    // Change the icon back to a burger
+                    burgerIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>`;
+                    // Hide the mobile menu and reset the background color
+                    menuListMobile.classList.add("hidden");
+                    menuListMobile.classList.remove("translate-y-0");
+                    bgOverlay.classList.add("opacity-0");
+                }
+            });
+        </script>
+    <!-- navbar close -->
+    <div style="background-image: url('https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/cyber.png?raw=true');">
         <div class="text-blue-700 text-7xl font-normal pt-44 px-56 pb-44">
             Cyber Security Services
         </div>
