@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
-    <title>YugaasTech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&family=Poppins&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel = "icon" href = "https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Logo.png?raw=true" type = "image/x-icon">
+
+    <title>yugaastech</title>
 </head>
 <body>
     <!-- navbar start -->
@@ -17,12 +20,12 @@
             <div class="flex items-center space-x-4 pt-3">
                 <img class="h-20 cursor-pointer" src="https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Logo.jpg?raw=true" alt="logo">
             </div>
-            <ul class="hidden lg:inline lg:flex text-lg font-bold px-10">
+            <ul class="hidden lg:inline text-lg font-bold px-10">
                 <div class="md:flex">
-                    <li class="py-1"><a href="../Home">Home</a></li>
+                    <li class="px-3 py-1"><a href="../Home">Home</a></li>
                     <li class="px-3 py-1"><a href="../About"> About Us</a></li>
-                    <li class="underline hover:scale-110 transition-shadow duration-150 ease-out py-1" style="color: #FFA500;"><a href="../OurServices">Our Services</a></li>
-                    <li class="px-3 py-1"><a href="../Career">Careers</a></li>
+                    <li class="px-3 py-1"><a href="../OurServices">Our Services</a></li>
+                    <li class="px-3 py-1 underline hover:scale-110 transition-shadow duration-150 ease-out " style="color: #FFA500;"><a href="#">Careers</a></li>
                     <li class="px-3 py-1"><a href="../Contactus">Contact Us</a></li>
                 </div>
             </ul>
@@ -39,11 +42,11 @@
     <div id="bg-overlay" class="fixed top-0 left-0 right-0 bg-white opacity-0 transition-opacity duration-300 h-[100hv] lg:bg-transparent lg:pt-0"></div>
 
     <!-- Mobile menu links with black text (initially displayed on lg:screen) -->
-    <ul id="menu-list-mobile" class="pt-32 flex flex-col text-lg font-bold px-10 absolute top-0 left-0 right-0 h-screen bg-white transform -translate-y-[500hv] transition-transform duration-300 hidden">
+    <ul id="menu-list-mobile" class="pt-32 flex-col text-lg font-bold px-10 absolute top-0 left-0 right-0 h-screen bg-white transform -translate-y-[500hv] transition-transform duration-300 hidden">
         <li class="py-1"><a href="../Home">Home</a></li>
         <li class="py-1"><a href="../About"> About Us</a></li>
-        <li class="underline hover:scale-110 transition-shadow duration-150 ease-out py-1" style="color: #FFA500;"><a href="../OurServices">Our Services</a></li>
-        <li class="py-1"><a href="../Career">Careers</a></li>
+        <li class="py-1"><a href="../OurServices">Our Services</a></li>
+        <li class="py-1 underline hover:scale-110 transition-shadow duration-150 ease-out" style="color: #FFA500;"><a href="#">Careers</a></li>
         <li class="py-1"><a href="../Contactus">Contact Us</a></li>
     </ul>
 
@@ -58,7 +61,7 @@
             isOpen = !isOpen;
             if (isOpen) {
                 // Change the icon to a cross (X)
-                burgerIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>`;
+                burgerIcon.innerHTML = <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>;
                 // Show the mobile menu and set the background color to white
                 menuListMobile.classList.remove("hidden");
                 menuListMobile.classList.add("translate-y-0");
@@ -67,7 +70,7 @@
                 window.scrollTo(0, 0);
             } else {
                 // Change the icon back to a burger
-                burgerIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>`;
+                burgerIcon.innerHTML = <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>;
                 // Hide the mobile menu and reset the background color
                 menuListMobile.classList.add("hidden");
                 menuListMobile.classList.remove("translate-y-0");
@@ -76,112 +79,123 @@
         });
     </script>
     <!-- navbar close -->
-    <div class=" bg-full " style="background-image: url('https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg?raw=true');">
+    <div class=" bg-full bg-cover" style="background-image: url('https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg?raw=true');">
         <div class="top-0 border-b shadow-sm z-[300]  h-max  border-white  pt-8 " data-aos="fade-up">
-            <p class=" font-bold text-shadow-xs text-2xl text-neutral-900 px-4 pt-2"> "Empower Your Talent. Ignite Success Together. Choose <span class="text-blue-700">Yugaas</span><span class="text-orange-300">Tech's</span> Hiring Method and Talent Recognition" </p>
-
-            <p class=" md: pt-11 w-[768px] text-5xl  text-shadow-xs flex justify-center  font-bold  md:text-[48px] md:w-full  ">Our Hiring Methods and Talent Recognition:</p>
-            <p class="md: pt-10 w-[768px] text-4xl flex justify-center font-semibold md:text-[48px] md:w-full " style="color: #FFA500;">Unlocking the Power of Human Potential</p>
-            <p class=" md: m-10 w-auto flex-shrink-0 text-2xl font-normal md:w-auto  ">At Yugaas Tech, we believe that our most valuable asset is our people. As a result, our Method of Hiring and Talent Recognition is meticulously designed to attract, retain, and nurture top talent who are not just skilled professionals but also aligned with our organization's values and vision. We recognize that building a high-performing team is essential to achieving our mission of empowering excellence across industries. Our hiring process and talent recognition initiatives embody our commitment to putting employees first and fostering a culture of growth, collaboration, and recognition.</p>
+            <p class="pt-11 text-3xl md:text-5xl  text-shadow-xs flex justify-center mx-4  font-bold md:mx-12 " style="font-family: 'Ubuntu', sans-serif; text-shadow: 2px 2px 4px #333;">Our Hiring Methods and Talent Recognition</p>
+            <p class="pt-10 text-blue-700 flex justify-center mx-4 font-semibold text-xl md:text-4xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">"Unlocking the Power of Human Potential"</p>
+            <p class="m-10 mx-4 flex-shrink-0 font-normal md:mx-24 text-lg md:text-2xl" style="font-family: 'Poppins', sans-serif;">At <span class=" font-bold md:pl-3" style="color: #956100;">yugaas</span><span class="text-blue-700 font-bold md:pr-3">tech</span>, we believe that our most valuable asset is our people. As a result, our Method of Hiring and Talent Recognition is meticulously designed to attract, retain, and nurture top talent who are not just skilled professionals but also aligned with our organization's values and vision. We recognize that building a high-performing team is essential to achieving our mission of empowering excellence across industries. Our hiring process and talent recognition initiatives embody our commitment to putting employees first and fostering a culture of growth, collaboration, and recognition.</p>
         </div>
     </div>
 
     <div class="flex top-0 border-b shadow-sm bg-white z-25">
         <div class=" flex flex-col">
-        <p class="text-blue-800 w-96 h-40 text-4xl pl-10 pt-20 font-bold text-shadow-xs md:w-full md:text-[40px]  ">Structured Interviews with our CXO Panel for Senior and Critical Roles: </p>
-        <p class="w-full h-48 pt-20 pr-36 text-2xl  pl-10 md:w-full">For pivotal roles within our organization, we employ a rigorous and insightful hiring process. Our CXO Panel, comprised of our esteemed executive leaders, conducts structured interviews with potential candidates. This approach ensures that only the most qualified and culturally compatible individuals join our ranks. We believe that this personalized touch in the hiring process allows us to identify candidates who possess not only the requisite skills but also the passion and dedication to drive our organization's success.</p>
+        <p class="text-blue-800 mx-4 pt-6 font-bold text-shadow-xs md:mx-12 text-xl md:text-4xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Structured Interviews with our CXO Panel for Senior and Critical Roles: </p>
+        <div class=" flex space-x-10 items-center" style="font-family: 'Poppins', sans-serif;">
+            <p class="pt-10 mx-4 md:mx-16 text-lg md:text-2xl md:w-full">For pivotal roles within our organization, we employ a rigorous and insightful hiring process. Our CXO Panel, comprised of our esteemed executive leaders, conducts structured interviews with potential candidates. This approach ensures that only the most qualified and culturally compatible individuals join our ranks. We believe that this personalized touch in the hiring process allows us to identify candidates who possess not only the requisite skills but also the passion and dedication to drive our organization's success.</p>
+            <img class="hidden md:mx-12 md:inline flex-shrink-0" src="../templates/images/Man2.png" alt="">
         </div>
-        <img class=" hidden md:inline w-[235.294px] h-500px flex-shrink-0" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/man1.png?raw=true" alt="Man">
+        </div>
     </div>
     
-    <div class="flex pl-[80px]  top-0 border-b shadow-sm bg-white z-30">
-        <img class="w-[235.294px] ml-4 h-auto flex-shrink-0 transform scale-x-[-1] " src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/woman1.png?raw=true" alt="Man">
+    <div class="flex top-0 border-b shadow-sm bg-white z-30">
         <div class=" flex flex-col">
-            <p class="h-40 text-4xl pl-10 pt-16 font-bold text-shadow-xs" style="color: #FFA500;">Transformation of a New Hire to a Committed Employee: </p>
-            <p class="w-full h-48 pt-20 pr-36 text-2xl  pl-10"> We recognize that a successful onboarding process is vital to ensure new hires become fully engaged and committed employees. Our commitment to transforming new hires into committed team members is reflected in our comprehensive onboarding program. This program provides new employees with a smooth integration into the organization's culture, values, and workflows. By offering ongoing support and mentoring, we facilitate the seamless transition from a new hire to a valuable and dedicated member of our Yugaas Tech family.</p>
+            <p class="mx-4 pt-6 font-bold text-shadow-xs md:flex md:justify-center text-xl md:text-4xl" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Transformation of a New Hire to a Committed Employee: </p>
+            <div class=" flex items-center" style="font-family: 'Poppins', sans-serif;">
+                <img class="hidden md:mx-12 md:inline flex-shrink-0" src="../templates/images/Woman2.png" alt="">
+                <p class="mx-4 text-lg md:text-2xl md:p-12"> We recognize that a successful onboarding process is vital to ensure new hires become fully engaged and committed employees. Our commitment to transforming new hires into committed team members is reflected in our comprehensive onboarding program. This program provides new employees with a smooth integration into the organization's culture, values, and workflows. By offering ongoing support and mentoring, we facilitate the seamless transition from a new hire to a valuable and dedicated member of our Yugaas Tech family.</p>
+            </div>
         </div>    
     </div>
 
-    <div class="flex top-0 border-b shadow-sm bg-white z-30">
+    <div class="flex top-0 border-b shadow-sm bg-white z-25">
         <div class=" flex flex-col">
-        <p class="text-blue-800 h-40 text-4xl pl-10 pt-16 font-bold text-shadow-xs md:w-[900px] md:text-[40px]  ">Employee First, Others Next... – Our Employee Wellness Program, Defines Our Culture: </p>
-        <p class="w-full h-48 pt-20 pr-36 text-2xl  pl-10 md:w-full">Our organizational culture is built on the principle of "Employee First, Others Next." We place the well-being and happiness of our employees at the core of our operations. Our Employee Wellness Program focuses on promoting work-life balance, physical and mental health, and personal development. By investing in our employees' well-being, we create an environment where they can thrive both personally and professionally. This commitment to employee welfare defines our culture and fosters a sense of belonging and loyalty among our team members.</p>
+        <p class="text-blue-800 mx-4 pt-6 font-bold text-shadow-xs md:mx-12 text-xl md:text-4xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Employee First, Others Next... – Our Employee Wellness Program, Defines Our Culture: </p>
+        <div class=" flex space-x-10 items-center" style="font-family: 'Poppins', sans-serif;">
+            <p class="pt-10 mx-4 md:mx-16 text-lg md:text-2xl md:w-full">Our organizational culture is built on the principle of "Employee First, Others Next." We place the well-being and happiness of our employees at the core of our operations. Our Employee Wellness Program focuses on promoting work-life balance, physical and mental health, and personal development. By investing in our employees' well-being, we create an environment where they can thrive both personally and professionally. This commitment to employee welfare defines our culture and fosters a sense of belonging and loyalty among our team members.</p>
+            <img class="hidden md:mx-12 md:inline flex-shrink-0" src="../templates/images/Man2.png" alt="">
         </div>
-        <img class=" hidden md:inline w-[235.294px] h-500px flex-shrink-0" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/man1.png?raw=true" alt="Man">
-    </div>
-    
-    <div class="flex pl-[80px]  top-0 border-b shadow-sm bg-white z-30">
-        <img class="w-[235.294px] ml-4 h-500px flex-shrink-0 transform scale-x-[-1] " src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/woman1.png?raw=true" alt="Man">
-        <div class=" flex flex-col">
-            <p class="h-40 text-4xl pl-10 pt-16 font-bold text-shadow-xs" style="color: #FFA500;">Transparent Salary Structure with Both Employees and Clients:  </p>
-            <p class="w-full h-48 pt-20 pr-36 text-2xl  pl-10"> Transparency is a fundamental value at Yugaas Tech. We believe in open and honest communication, both with our employees and our clients. Our salary structure is transparent, providing employees with a clear understanding of their compensation and benefits. Likewise, when working with clients, we maintain transparency regarding pricing and project deliverables. This practice fosters trust and accountability, strengthening our relationships with both employees and clients.
-            </p>
-        </div>      
+        </div>
     </div>
 
-    <div class="flex top-0 border-b shadow-sm bg-white z-30">
+     <div class="flex top-0 border-b shadow-sm bg-white z-30">
         <div class=" flex flex-col">
-        <p class="text-blue-800 h-40 text-4xl pl-10 pt-16 font-bold text-shadow-xs md:w-[900px] md:text-[40px]  ">Rewards and Recognition – Lauding the Right Talent: </p>
-        <p class="w-full h-48 pt-20 pr-36 text-2xl  pl-10 md:w-full">We understand that recognizing and appreciating the contributions of our employees is crucial to their motivation and job satisfaction. Our Rewards and Recognition program is designed to celebrate outstanding performance, innovation, and dedication within our team. Whether it's through employee of the month awards, spot bonuses, or public acknowledgments, we ensure that the right talent receives the recognition they deserve. This approach not only boosts employee morale but also inspires a culture of excellence and healthy competition. </p>
+            <p class="mx-4 pt-6 font-bold text-shadow-xs md:flex md:justify-center text-xl md:text-4xl md:ml-36" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Transparent salary structure with both employees and clients: </p>
+            <div class=" flex items-center" style="font-family: 'Poppins', sans-serif;">
+                <img class="hidden md:mx-12 md:inline flex-shrink-0" src="../templates/images/Woman2.png" alt="">
+                <p class="mx-4 text-lg md:text-2xl md:p-12">Transparency is a fundamental value at Yugaas Tech. We believe in open and honest communication, both with our employees and our clients. Our salary structure is transparent, providing employees with a clear understanding of their compensation and benefits. Likewise, when working with clients, we maintain transparency regarding pricing and project deliverables. This practice fosters trust and accountability, strengthening our relationships with both employees and clients.</p>
+            </div>
+        </div>    
+    </div>
+
+    <div class="flex top-0 border-b shadow-sm bg-white z-25">
+        <div class=" flex flex-col">
+        <p class="text-blue-800 mx-4 pt-6 font-bold text-shadow-xs md:mx-12 text-xl md:text-4xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Rewards and Recognition – Lauding the Right Talent: </p>
+        <div class=" flex space-x-10 items-center" style="font-family: 'Poppins', sans-serif;">
+            <p class="pt-10 mx-4 md:mx-16 text-lg md:text-2xl md:w-full">We understand that recognizing and appreciating the contributions of our employees is crucial to their motivation and job satisfaction. Our Rewards and Recognition program is designed to celebrate outstanding performance, innovation, and dedication within our team. Whether it's through employee of the month awards, spot bonuses, or public acknowledgments, we ensure that the right talent receives the recognition they deserve. This approach not only boosts employee morale but also inspires a culture of excellence and healthy competition. </p>
+            <img class="hidden md:mx-12 md:inline flex-shrink-0" src="../templates/images/Man2.png" alt="">
         </div>
-        <img class=" hidden md:inline w-[235.294px] h-500px flex-shrink-0" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/man1.png?raw=true" alt="Man">
+        </div>
     </div>
 
     <!-- content -->
-    <div class=" mx-24 my-20">
+    <div class="pt-6 mx-4 md:mx-12">
             <p>
-                <div class=" text-blue-800 font text-5xl font-bold text-shadow-xs">Key Benefits:</div> <br>
+                <div class=" text-blue-800 font-bold text-shadow-xs text-xl md:text-4xl flex items-center" style="font-family: 'Ubuntu', sans-serif; text-shadow: 2px 2px 4px #333;">| Key Benefits:</div>
 
-                <div class=" text-4xl font-semibold pt-6">High-Performing Talent Acquisition:</div> <br>
-                <div class=" text-2xl  font-normal" >Our structured interview process ensures that we attract top talent capable of driving our organization's growth and success.</div> <br>
+                <div class=" pt-6 text-lg md:text-3xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">High-Performing Talent Acquisition:</div>
+                <div class=" text-base md:my-4 md:text-2xl" style="font-family: 'Poppins', sans-serif;" >Our structured interview process ensures that we attract top talent capable of driving our organization's growth and success.</div> <br>
 
-                <div class=" text-4xl font-semibold pt-6">Engaged and Committed Workforce:</div> <br>
-                <div class=" text-2xl  font-normal">By transforming new hires into committed employees through a supportive onboarding process, we cultivate an engaged and loyal workforce.</div> <br>
+                <div class=" pt-6 text-lg md:text-3xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Engaged and Committed Workforce:</div>
+                <div class=" text-base md:my-4 md:text-2xl" style="font-family: 'Poppins', sans-serif;">By transforming new hires into committed employees through a supportive onboarding process, we cultivate an engaged and loyal workforce.</div> <br>
 
-                <div class=" text-4xl font-semibold pt-6">Positive Organizational Culture:</div> <br>
-                <div class=" text-2xl  font-normal"> Our Employee Wellness Program and <span class="text-blue-700">"Employee First, Others Next"</span> culture create a positive and nurturing work environment, leading to increased job satisfaction and employee retention. </div><br>
+                <div class=" pt-6 text-lg md:text-3xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Positive Organizational Culture:</div>
+                <div class=" text-base md:my-4 md:text-2xl" style="font-family: 'Poppins', sans-serif;"> Our Employee Wellness Program and <span class="text-blue-700 font-medium">"Employee First, Others Next"</span> culture create a positive and nurturing work environment, leading to increased job satisfaction and employee retention. </div><br>
 
-                <div class=" text-4xl font-semibold pt-6">Trust and Transparency:</div> <br> 
-                <div class=" text-2xl  font-normal"> Our transparent salary structure and open communication practices foster trust among employees and clients, enhancing collaboration and mutual understanding.</div> <br>
+                <div class=" pt-6 text-lg md:text-3xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Trust and Transparency:</div> 
+                <div class=" text-base md:my-4 md:text-2xl" style="font-family: 'Poppins', sans-serif;"> Our transparent salary structure and open communication practices foster trust among employees and clients, enhancing collaboration and mutual understanding.</div> <br>
 
-                <div class=" text-4xl font-semibold pt-6">Motivated and Recognized Employees:</div> <br>
-                <div class=" text-2xl  font-normal"> Rewards and Recognition initiatives motivate employees to perform at their best and foster a sense of pride and achievement within the team.</div> <br>  
+                <div class=" pt-6 text-lg md:text-3xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Motivated and Recognized Employees:</div>
+                <div class=" text-base md:my-4 md:text-2xl" style="font-family: 'Poppins', sans-serif;"> Rewards and Recognition initiatives motivate employees to perform at their best and foster a sense of pride and achievement within the team.</div> <br>  
             </p>
-            <p class="text-4xl pt-7 font-semibold m-8 pb-8"> "At <span class="text-blue-700">Yugaas</span><span style="color: #FFA500;">Tech</span>, our Method of Hiring and Talent Recognition is a reflection of our commitment to creating a workplace where individuals can excel, grow, and contribute to our collective success. By prioritizing employee well-being, recognition, and transparent practices, we build a resilient and cohesive team that continuously pushes the boundaries of excellence."</p>
+    </div>
+
+    <div class=" pb-10 top-0 border-b shadow-sm bg-no-repeat bg-cover z-25" style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
+        <p class="pt-7 font-semibold mx-4 md:mx-12 text-xl md:text-3xl " style="font-family: 'Poppins', sans-serif;"> "At <span class="text-blue-700">Yugaas</span><span style="color: #FFA500;">Tech</span>, our Method of Hiring and Talent Recognition is a reflection of our commitment to creating a workplace where individuals can excel, grow, and contribute to our collective success. By prioritizing employee well-being, recognition, and transparent practices, we build a resilient and cohesive team that continuously pushes the boundaries of excellence."</p>
     </div>
     <!-- opportunities0 -->
 
-    <div class="top-0 border-b shadow-sm bg-white z-30 ">
-        <p class="flex justify-center text-5xl text-shadow-xs font-bold pt-8 ">Opportunities</p>
-        <p class=" flex justify-center font-semibold text-4xl pt-6 text-blue-700 ">Join Our Team and Unleash Your Potential! </p>
-        <p class=" font-semibold text-3xl m-14">Are you driven by passion, eager to embrace technology, and committed to excellence?<br>
-        <span class=" font-normal text-2xl"> At <span class=" text-blue-700 font-medium">Yugaas</span><span class=" font-medium" style="color: #FFA500;">Tech</span>, we believe that the right aptitude and attitude are the cornerstones of success. We are actively seeking talented individuals who possess the passion and potential to make a real difference in the digital landscape.</span>
+    <div class="top-0 border-b shadow-sm bg-white z-30 pb-6 pt-6">
+        <p class="flex justify-center text-shadow-xs font-bold mx-4 md:mx-12 text-3xl md:text-5xl " style="font-family: 'Ubuntu', sans-serif; text-shadow: 2px 2px 4px #333;">Opportunities</p>
+        <p class=" flex justify-center font-semibold mx-4 pt-6 text-blue-700 md:mx-12 text-xl md:text-4xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Join Our Team and Unleash Your Potential! </p>
+        <p class="mx-4 pt-6 md:mx-8 text-xl md:text-4xl" style="font-family: 'Poppins', sans-serif;"><span class="font-semibold">Are you driven by passion, eager to embrace technology, and committed to excellence?</span><br>
+        <p class="mx-4 pt-6 md:mx-8 text-xl md:text-3xl" style="font-family: 'Poppins', sans-serif;"> At <span class=" text-blue-700 font-medium">Yugaas</span><span class=" font-medium" style="color: #FFA500;">Tech</span>, we believe that the right aptitude and attitude are the cornerstones of success. We are actively seeking talented individuals who possess the passion and potential to make a real difference in the digital landscape.</p>
         </p>
-        <p class=" ml-[200px] mr-[200px] text-[30px] font-semibold  ">If you are looking for a place where your skills are valued, your growth is supported, and your ideas are celebrated, we invite you to join our team. Whether you are a seasoned professional seeking new challenges or a fresh graduate ready to take the first step in your career journey, we welcome you to apply.</p>
     </div>
 
-    <div class="  top-0 border-b shadow-sm border-white z-30  bg-orange-svg ">
+    <div class=" pb-10 top-0 border-b shadow-sm bg-no-repeat bg-cover z-25" style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
+        <p class=" mx-4 pt-6 md:mx-12 text-xl md:text-4xl" style="font-family: 'Poppins', sans-serif;">If you are looking for a place where your skills are valued, your growth is supported, and your ideas are celebrated, we invite you to join our team. Whether you are a seasoned professional seeking new challenges or a fresh graduate ready to take the first step in your career journey, we welcome you to apply.</p>
+    </div>
+
+    <div class="  top-0 border-b shadow-sm pb-10 border-white bg-no-repeat bg-cover z-30" style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
         <!-- <div class=" relative  flex justify-center pt-12 custom-background custom-border-radius custom-blur h-[600px] w-[1500px] flex-shrink-0  ">  -->
-            <p class="  flex justify-center pt-10 text-6xl font-bold text-shadow-xs ">Why Choose  <span class=" text-blue-700 pl-4"> Yugaas</span><span style="color: #FFA500;">Tech</span>?</p>
-            <p class=" ml-24 mr-24 mt-10">
-                <span class=" text-3xl font-bold" style="color: #FFA500;">A Passionate Team:</span>
+            <p class="  flex justify-center pt-10 text-3xl font-bold text-shadow-xs md:text-5xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 2px 2px 4px #333;">Why Choose  <span class=" text-blue-700 pl-4"> yugaas</span><span style="color: #FFA500;">tech</span>?</p>
+            <p class=" mx-4 md:mx-12 pt-10">
+                <span class=" text-3xl font-semibold text-blue-700" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;" >A Passionate Team:</span>
                 <span class=" text-2xl font-medium pl-4"> Join a team of dedicated and driven professionals who share a common passion for technology and innovation.</span> <br>
-                <span class=" text-3xl font-bold" style="color: #FFA500;">Opportunities for Growth:</span> 
+                <span class=" text-3xl font-semibold text-blue-700" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;" >Opportunities for Growth:</span> 
                 <span class=" text-2xl font-medium pl-4">We believe in investing in our employees' growth and provide opportunities for learning and skill development.</span> <br>
-                <span class=" text-3xl font-bold" style="color: #FFA500;">Collaborative Environment:</span>
+                <span class=" text-3xl font-semibold text-blue-700" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;" >Collaborative Environment:</span>
                 <span class=" text-2xl font-medium pl-4">Experience a collaborative and supportive work environment that encourages creativity and teamwork.</span> <br>
-                <span class=" text-3xl font-bold" style="color: #FFA500;">Impactful Work: </span>
+                <span class=" text-3xl font-semibold text-blue-700" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;" >Impactful Work: </span>
                 <span class=" text-2xl font-medium pl-4">Be part of projects that make a difference and contribute to solving real-world challenges.</span> <br>
-                <span class=" text-3xl font-bold" style="color: #FFA500;">Employee-Centric Culture:</span> 
+                <span class=" text-3xl font-semibold pt-6 text-blue-700" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Employee-Centric Culture:</span> 
                 <span class=" text-2xl font-medium pl-4">Our employee-first approach ensures your well-being and professional fulfilment </span> <br>
             </p>
         <!-- </div> -->
     </div>
-    <div class=" mx-28 pt-10 pb-10 space-y-10 top-0 border-b shadow-sm bg-white z-30">
-        <p class="font-normal text-2xl justify-between">
-            If you are ready to embark on an exciting journey with a company that values your unique talents and aspirations, we encourage you to apply. Join us at <span class="text-blue-700 font-semibold">Yugaas</span><span class="text-orange-300 font-semibold">Tech</span> and let's shape the future together!
-            To apply, send your resume and a brief introduction to [Email Address]. We look forward to meeting exceptional individuals like you and exploring the endless possibilities of innovation and growth.
-            Let's create something remarkable together. Apply now and unleash your potential at <span class="text-blue-700 font-semibold">Yugaas</span><span class="text-orange-300 font-semibold">Tech</span>!
+    <div class="py-5">
+        <p class=" font-medium text-shadow-xs text-2xl text-neutral-900 flex justify-center mx-4 pt-2 md:mx-12 md:text-3xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">
+             "Empower Your Talent. Ignite Success Together. Choose Hiring Method and Talent Recognition" 
         </p>
     </div>
     

@@ -16,13 +16,13 @@
             <div class="flex items-center space-x-4 pt-3">
                 <img class="h-20 cursor-pointer" src="https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Logo.jpg?raw=true" alt="logo">
             </div>
-            <ul class="hidden lg:inline lg:flex text-lg font-bold px-10">
+            <ul class="hidden lg:inline text-lg font-bold px-10">
                 <div class="md:flex">
                     <li class="py-1"><a href="../Home">Home</a></li>
                     <li class="px-3 py-1"><a href="../About"> About Us</a></li>
-                    <li class="underline hover:scale-110 transition-shadow duration-150 ease-out py-1" style="color: #FFA500;"><a href="../OurServices">Our Services</a></li>
+                    <li class="px-3 py-1"><a href="../OurServices">Our Services</a></li>
                     <li class="px-3 py-1"><a href="../Career">Careers</a></li>
-                    <li class="px-3 py-1"><a href="../Contactus">Contact Us</a></li>
+                    <li class="underline hover:scale-110 transition-shadow duration-150 ease-out py-1" style="color: #FFA500;"><a href="../Contactus">Contact Us</a></li>
                 </div>
             </ul>
             <!-- mobile burger icon -->
@@ -38,12 +38,12 @@
     <div id="bg-overlay" class="fixed top-0 left-0 right-0 bg-white opacity-0 transition-opacity duration-300 h-[100hv] lg:bg-transparent lg:pt-0"></div>
 
     <!-- Mobile menu links with black text (initially displayed on lg:screen) -->
-    <ul id="menu-list-mobile" class="pt-32 flex flex-col text-lg font-bold px-10 absolute top-0 left-0 right-0 h-screen bg-white transform -translate-y-[500hv] transition-transform duration-300 hidden">
+    <ul id="menu-list-mobile" class="pt-32 flex-col text-lg font-bold px-10 absolute top-0 left-0 right-0 h-screen bg-white transform -translate-y-[500hv] transition-transform duration-300 hidden">
         <li class="py-1"><a href="../Home">Home</a></li>
         <li class="py-1"><a href="../About"> About Us</a></li>
-        <li class="underline hover:scale-110 transition-shadow duration-150 ease-out py-1" style="color: #FFA500;"><a href="../OurServices">Our Services</a></li>
+        <li class="px-3 py-1"><a href="../OurServices">Our Services</a></li>
         <li class="py-1"><a href="../Career">Careers</a></li>
-        <li class="py-1"><a href="../Contactus">Contact Us</a></li>
+        <li class="underline hover:scale-110 transition-shadow duration-150 ease-out py-1" style="color: #FFA500;"><a href="../Contactus">Contact Us</a></li>
     </ul>
 
     <script>
@@ -77,19 +77,92 @@
     <!-- navbar close -->
         <!-- landing content -->
         <div class=" pt-4">
-            <p class=" text-blue-800 text-shadow-xs flex justify-center text-7xl font-bold tracking-wide "> Contact Us</p>
-            <p class=" text-4xl font-medium pl-20 pr-20 pt-10"> Thank you for your interest in yugaastech! We value your inquiries, feedback, and collaboration opportunities. Feel free to get in touch with us using the following contact information, and we'll be delighted to assist you.</p>
-            <div class=" pt-10 flex justify-center ">
-                <div class=" pl-10">
-                    <p class="text-blue-800 text-shadow-xs font-bold tracking-wide text-5xl ">Contact Details:</p>
-                    <p class=" pt-6 text-4xl font-semibold "> Address: <span class=" font-medium"> [ address ]</span></p>
-                    <p class=" pt-6 text-4xl font-semibold "> Phone: <span class=" font-medium"> [ phone]</span></p>
-                    <p class=" pt-6 text-4xl font-semibold "> E-mail: <span class=" font-medium"> [ hr@yugaastech.in ]</span></p>
+            {% comment %} <p class=" text-blue-800 text-shadow-xs flex justify-center text-7xl font-bold tracking-wide "> Contact Us</p> {% endcomment %}
+            <div class=" font-bold text-center pt-5 text-5xl">
+                <h1>Contact US</h1>
+              </div>
+              <div class="text-2xl pt-10 text-center md:text-left md:pl-28 font-semibold">
+                  <h3>Get In Touch</h3>
+                </div>
+                <div class="text-3xl sm:text-center md:text-left md:pl-28 pt-8 font-bold h-10">
+                    <h2 class="px-6 md:px-0">Send Me A Message</h2>
+                </div>
+                <div class="block md:flex">
+                    <div>
+                        <div class="block md:flex">
+                            <div>
+                                <div class="text-lg pl-5 md:pl-28 pt-16">
+                                    <h1>First name</h1>
+                                </div>
+                                <div class="text-md pl-5 md:pl-28 pt-2">
+                                    <input type="text" class="h-12 w-60 pl-3 rounded-lg bg-[#3f4360]" placeholder="Your First Name" style="background-color: #3f4360;">
+                                </div>
+                    </div>
+                    <div>
+                        <div class="text-lg pl-5 md:pl-28 pt-8 md:pt-16">
+                            <h1>Last name</h1>
+                        </div>
+                        <div class="text-md pl-5 md:pl-28 pt-2">
+                            <input type="text" class="h-12 pl-3 w-60 rounded-lg" placeholder="Your First Name" style="background-color: #3f4360;">
+                        </div>
+                    </div>
+                </div>
+                <div class="block md:flex">
+                    <div>
+                        <div class="text-lg pl-5 md:pl-28 pt-8">
+              <h1>Mail</h1>
+            </div>
+            <div class="text-md pl-5 md:pl-28 pt-2">
+                <input type="text" class="h-12 w-60 pl-3 rounded-lg" placeholder="Your  Mail" style="background-color: #3f4360;">
+            </div>
+        </div>
+        <div>
+            <div class="text-lg pl-5 md:pl-28 pt-8">
+                <h1>Phone</h1>
+            </div>
+            <div class="text-md pl-5 md:pl-28 pt-2">
+                <input type="text" class="h-12 pl-3 w-60 rounded-lg" placeholder="+91  " style="background-color: #3f4360;">
+            </div>
+        </div>
+    </div>
+    <div class="text-md pl-5 md:pl-28 pt-10">
+        <h1>Message</h1>
+    </div>
+    <div class="text-md pl-5 md:pl-28 pt-10">
+        <input type="text" class="h-28 md:h-40 w-80 md:w-96 pl-10 pb-10 rounded-lg" placeholder="Type your message here" style="background-color: #3f4360;">
+    </div>
+</div>
+<div class="mx-5 md:mx-28 pt-24">
+    <div class="bg-blue-500 rounded-xl text-white" style="background-color: #3f4360;">
+        <div class="font-bold text-4xl mx-12 pt-16">
+            <h1>Address</h1>
+        </div>
+        <div class="mx-4 md:mx-12 pt-3">
+            <p>Quam elementum pulvinar etiam non quam lacus <br>
+                suspendisse.A scelerisque purus semper eget duis at <br>
+                Lobortisscelerisque fermentum dui faucibus in ornare....</p>
+            </div>
+            <div class="font-semibold mx-4 md:mx-12 pt-4">
+                <p>Location : 1841, Dpsdmfoef Lnsdfindjsnd <br>
+                    dsicjnosadic naidsjncsacpn -562123</p>
+                </div>
+                <div class="mx-4 md:mx-12 pt-3 flex">
+                    <h1 class="font-semibold">Phone : <h1> +91 5616548451115</h1></h1>
+                </div>
+                <div class="mx-4 md:mx-12 pt-3 pb-24 flex">
+                    <h1 class="font-semibold">Email : <span> Dashbdfihabs@gmail.com</span></h1>
                 </div>
             </div>
-            <div class=" flex justify-center pt-8 text-5xl">
-                <p class=" font-bold"> You can also visit our social media for more information</p>
-            </div>
+        </div>
+    </div>
+    <div  class="pl-28 pt-5 md:pt-10 pb-20">
+        <button class="rounded-xl h-10 w-32" style="background-color: #FFA500;">Send Message</button>
+    </div>
+    <p class=" text-2xl font-medium text-center mx-5 pt-10"> Thank you for your interest in yugaastech! We value your inquiries, feedback, and collaboration opportunities. Feel free to get in touch with us using the following contact information, and we'll be delighted to assist you.</p>
+    
+    {% comment %} <div class=" flex justify-center pt-8 text-3xl">
+        <p class=" font-bold"> You can also visit our social media for more information</p>
+    </div>
             <div class=" pt-8 flex justify-center space-x-10">
                 <img class=" cursor-pointer hover:scale-110 transition-shadow duration-150 ease-out" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/twitter.png?raw=true" alt="">
                 <img class=" cursor-pointer hover:scale-110 transition-shadow duration-150 ease-out" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/fb.png?raw=true" alt="">
@@ -97,9 +170,9 @@
                 <img class=" cursor-pointer hover:scale-110 transition-shadow duration-150 ease-out" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/instagram.png?raw=true" alt="">
             </div>
         </div>
-    </div>
+    </div> {% endcomment %}
 
-    <div class="">
+    <div class="pt-10">
         
     </div>
     {% include 'footer.html' %}

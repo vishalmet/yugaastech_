@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
     <link rel = "icon" href = "https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Logo.png?raw=true" type = "image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&family=Poppins&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <style>
+        .hidden-paragraph {
+            display: none;
+        }
+    </style>
 
     <title>yugaastech</title>
 </head>
@@ -18,10 +24,12 @@
   </script>
         <!-- navbar start -->
     <div class="sticky top-0 border-b shadow-sm bg-white z-30">
-        <nav class="flex items-center justify-between mx-4">
+        <nav class="flex items-center justify-between mx-4" style="font-family: 'Poppins', sans-serif;" >
             <!-- left -->
             <div class="flex items-center space-x-4 pt-3">
                 <img class="h-20 cursor-pointer" src="https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Logo.jpg?raw=true" alt="logo">
+                <p class=" hidden md:inline font-bold pb-4 text-3xl text-blue-800 ">yugaas<span class=" font-bold" style="color: #FFA500;">tech</span></p>
+
             </div>
             <ul class="hidden lg:inline text-lg font-bold px-10">
                 <div class="md:flex">
@@ -45,7 +53,7 @@
     <div id="bg-overlay" class="fixed z-10 top-0 left-0 right-0 bg-white opacity-0 transition-opacity duration-300 h-[100hv] lg:bg-transparent lg:pt-0"></div>
     
     <!-- Mobile menu links with black text (initially displayed on lg:screen) -->
-    <ul id="menu-list-mobile" class="pt-32 flex-col text-lg font-bold px-10 absolute top-0 left-0 z-10 right-0 h-screen bg-white transform -translate-y-[500hv] transition-transform duration-300 hidden">
+    <ul id="menu-list-mobile" class="pt-32 flex-col text-lg font-bold px-10 absolute top-0 left-0 z-10 right-0 h-screen bg-white transform -translate-y-[500hv] transition-transform duration-300 hidden" style="font-family: 'Poppins', sans-serif;">
         <li class="py-1"><a href="../Home">Home</a></li>
         <li class="py-1 underline hover:scale-110 transition-shadow duration-150 ease-out " style="color: #FFA500;"><a href="#"> About Us</a></li>
         <li class="py-1"><a href="../OurServices">Our Services</a></li>
@@ -101,352 +109,392 @@
                     <img class="hidden md:inline" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Ellipse 30.png?raw=true" alt="">
                 </div>
                 <div class=" mx-4 md:mx-12">
-                    <p class=" font-bold tracking-wide  text-3xl text-shadow-xs md:text-4xl" style="color: #FFA500;" >About our Company</p>
-                    <p class=" font-semibold tracking-wide text-xl items-center text-white mt-8 md:text-2xl lg:text-4xl">
-                        Founding in 2020, passion-driven approach, and the commitment to quality.
-                        Mention the focus on AI-based tech-driven platforms and disruptive pricing.
-                        Introduce the expert panel of esteemed mentors from CXO positions who
-                        review deliverables. 
-                    </p>
+                    <p class=" font-bold  text-3xl text-shadow-xs md:text-4xl" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 2px 2px 4px #333;">About our Company</p>
+                        <p class="text-2xl md:text-3xl text-white pt-6" style="font-family: 'Poppins', sans-serif; text-shadow: 0px 1px 2px #333;"> At <span class=" font-semibold" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-semibold">tech</span>, we're more than just an IT company – we're your technology partner for success. Our team of experts is dedicated to delivering cutting-edge solutions that drive your business forward.</p>
+
                 </div>
                 
             </div>
         </div>
     </div>
     <!-- 1 -->
-    <div class="pb-10 top-0 border-b shadow-sm  z-25 ">
-        <div class=" flex flex-col pt-10 ">
-            <p class=" font-bold text-3xl text-blue-700 flex justify-center text-shadow-xs md:text-4xl">Company Overview</p>
-            <p class=" pt-6 pl-6 font-medium text-2xl flex justify-center md:text-3xl">"Empowering excellence through technology and HR solutions"</p>
+    <div class="bg-gradient-to-r from-indigo-200 via-yellow-100 to-yellow-200">
+        <div class="pb-10 top-0 border-b shadow-sm  z-25  mx-4 md:mx-12 ">
+            <div class=" flex flex-col pt-10 ">
+                <p class=" font-bold text-3xl text-blue-700 flex justify-center text-shadow-xs md:text-4xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Company Overview</p>
+                <p class=" pt-6 pl-6 font-medium text-2xl flex justify-center md:text-3xl" style="font-family: 'Poppins', sans-serif;">"Empowering excellence through technology and HR solutions"</p>
+            </div>
+            <div class=" pt-10 flex-row justify-center items-center md:flex ">
+                <img class="md:mx-12" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Rectangle 9.png?raw=true" alt="">
+                <p class=" text-base pt-6 md:pt-0 md:text-2xl " style="font-family: 'Poppins', sans-serif;">Welcome to Yugaas Tech, a technology and HR solutions provider that was founded in the year 2020 with a mission to transform businesses and empower individuals through the power of technology. At Yugaas Tech, we bring together a perfect blend of youthful innovation and matured expertise, fueled by a passion for excellence. We have swiftly carved a niche for ourselves as a trusted partner for businesses and organizations seeking transformative solutions to stay ahead in the digital age. </p>
+            </div>
         </div>
-        <div class=" px-3 pt-10 flex-row justify-center items-center md:flex md:px-20">
-            <img class="" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Rectangle 9.png?raw=true" alt="">
-            <p class=" font-normal tracking-wide text-xl p-2 md:text-2xl md:pl-10 lg:text-3xl">Welcome to Yugaas Tech, a technology and HR solutions provider that was founded in the year 2020 with a mission to transform businesses and empower individuals through the power of technology. At Yugaas Tech, we bring together a perfect blend of youthful innovation and matured expertise, fueled by a passion for excellence. <br>We have swiftly carved a niche for ourselves as a trusted partner for businesses and organizations seeking transformative solutions to stay ahead in the digital age. </p>
-        </div>
-        <p class=" font-normal tracking-wide text-3xl px-10 pt-2"></p>
-    </div>
 
-    <div class="pb-10 top-0 border-b shadow-sm  z-25">
-        <div class=" flex flex-col pt-10 px-4 md:px-20 ">
-            <p class=" text-3xl font-bold text-shadow-xs flex justify-center md:text-4xl" style="color: #FFA500;"> Our purpose</p>
-            <p class=" text-2xl font-semibold pt-6 flex justify-center md:text-3xl">"Empowering Growth and Success"</p>
-            <p class=" font-normal pt-6 text-xl tracking-wide md:text-2xl">At the core of our existence lies a compelling purpose - to empower growth and success.
-                We firmly believe that technology has the power to catalyze positive change, elevate businesses,
-                and unlock boundless opportunities. With this belief fueling our endeavors, we are dedicated
-                to delivering tech-driven solutions that empower our clients to achieve their aspirations.</p>
+        <div class="pb-10 top-0 border-b shadow-sm  z-25">
+            <div class=" flex flex-col pt-10 px-4 md:px-20 ">
+                <p class=" text-3xl font-bold text-shadow-xs flex justify-center md:text-4xl" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"> Our purpose</p>
+                <p class=" text-2xl font-semibold pt-6 flex justify-center md:text-3xl" style="font-family: 'Poppins', sans-serif;">"Empowering Growth and Success"</p>
+                <p class=" font-normal pt-6 text-xl md:text-2xl" style="font-family: 'Poppins', sans-serif;">At the core of our existence lies a compelling purpose - to empower growth and success.
+                    We firmly believe that technology has the power to catalyze positive change, elevate businesses,
+                    and unlock boundless opportunities. With this belief fueling our endeavors, we are dedicated
+                    to delivering tech-driven solutions that empower our clients to achieve their aspirations.</p>
+            </div>
         </div>
-    </div>
-        
-    <div class="pb-10 top-0 border-b shadow-sm  z-25">
-        <div class=" flex flex-col pt-10 px-4 md:px-20">
-            <p class=" text-3xl font-bold text-shadow-xs md:flex md:justify-center md:text-4xl" style="color: #FFA500;">Tech Transformation,<span class="text-blue-700"> Empowered Futures </span></p>
-            <p class=" text-2xl font-semibold pt-6 flex justify-center md:text-3xl">"Our vision is ambitious and far-reaching"</p>
-            <p class=" font-normal pt-6  text-xl tracking-wide md:text-2xl">We envision a world where businesses harness the full potential of technology to revolutionize their industries, drive innovation, and create a better future for all. We see ourselves as catalysts for this transformation, empowering our clients to embrace change and stay at the forefront of progress.</p>
+            
+        <div class="pb-10 top-0 border-b shadow-sm  z-25">
+            <div class=" flex flex-col pt-10 px-4 md:px-20">
+                <p class=" text-3xl font-bold text-shadow-xs md:flex md:justify-center md:text-4xl" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Tech Transformation,<span class="text-blue-700"> Empowered Futures </span></p>
+                <p class=" text-2xl font-semibold pt-6 flex justify-center md:text-3xl" style="font-family: 'Poppins', sans-serif;">"Our vision is ambitious and far-reaching"</p>
+                <p class=" font-normal pt-6  text-xl md:text-2xl" style="font-family: 'Poppins', sans-serif;">We envision a world where businesses harness the full potential of technology to revolutionize their industries, drive innovation, and create a better future for all. We see ourselves as catalysts for this transformation, empowering our clients to embrace change and stay at the forefront of progress.</p>
+            </div>
         </div>
-    </div>
 
-    <div class="pb-10 top-0 border-b shadow-sm  z-25">
-        <div class=" flex flex-col pt-10 px-4 md:px-20">
-            <p class=" text-3xl font-bold text-shadow-xs flex justify-center text-blue-700 md:text-4xl">Innovation and Expertise</p>
-            <p class=" text-2xl font-semibold pt-6 flex justify-center md:text-3xl">"Our driving forces"</p>
-            <p class=" font-normal pt-6 text-xl tracking-wide md:text-2xl">
-                Innovation is ingrained in our DNA. We constantly explore emerging technologies, trends, and industry best practices to offer cutting-edge solutions that push the boundaries of what's possible. Our team of skilled professionals, technologists, and domain experts bring a diverse range of expertise, enabling us to deliver tailored solutions that perfectly align with our clients' specific needs.
-            </p>
+        <div class="pb-10 top-0 border-b shadow-sm  z-25">
+            <div class=" flex flex-col pt-10 px-4 md:px-20">
+                <p class=" text-3xl font-bold text-shadow-xs flex justify-center text-blue-700 md:text-4xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Innovation and Expertise</p>
+                <p class=" text-2xl font-semibold pt-6 flex justify-center md:text-3xl" style="font-family: 'Poppins', sans-serif;">"Our driving forces"</p>
+                <p class=" font-normal pt-6 text-xl md:text-2xl" style="font-family: 'Poppins', sans-serif;">
+                    Innovation is ingrained in our DNA. We constantly explore emerging technologies, trends, and industry best practices to offer cutting-edge solutions that push the boundaries of what's possible. Our team of skilled professionals, technologists, and domain experts bring a diverse range of expertise, enabling us to deliver tailored solutions that perfectly align with our clients' specific needs.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div class="pb-10 top-0 border-b shadow-sm  z-25">
-        <div class=" flex flex-col pt-10 px-4 md:px-20">
-            <p class=" text-3xl font-bold text-shadow-xs md:flex md:justify-center md:text-4xl" style="color: #FFA500;">Unwavering Commitment to  <span class="text-blue-700 pl-2">Excellence </span></p>
-            <p class=" font-normal pt-6 text-xl tracking-wide md:text-2xl">
-                Excellence is the cornerstone of our approach. We set high standards for ourselves, and we don't settle for anything less than exceptional. Our solutions undergo rigorous quality testing and refinement to ensure they meet the highest benchmarks. Our dedication to excellence permeates every aspect of our services, from initial consultation to project delivery and ongoing support.
-            </p>
+        <div class="pb-10 top-0 border-b shadow-sm  z-25">
+            <div class=" flex flex-col pt-10 px-4 md:px-20">
+                <p class=" text-3xl font-bold text-shadow-xs md:flex md:justify-center md:text-4xl" style="color: #FFA500;font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Unwavering Commitment to  <span class="text-blue-700 pl-2">Excellence </span></p>
+                <p class=" font-normal pt-6 text-xl md:text-2xl" style="font-family: 'Poppins', sans-serif;">
+                    Excellence is the cornerstone of our approach. We set high standards for ourselves, and we don't settle for anything less than exceptional. Our solutions undergo rigorous quality testing and refinement to ensure they meet the highest benchmarks. Our dedication to excellence permeates every aspect of our services, from initial consultation to project delivery and ongoing support.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div class="pb-10 top-0 border-b shadow-sm  z-25">
-        <div class=" flex flex-col pt-10 px-4 md:px-20 ">
-            <p class=" text-3xl font-bold text-shadow-xs text-blue-700 md:text-4xl md:flex md:justify-center">Customer-Centric <span class="" style="color: #FFA500;">Partnerships </span> </p>
-            <p class="pt-6 text-xl tracking-wide md:text-2xl">
-                Join the <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span> Journey Whether you are a large enterprise or a budding startup, we invite you to embark on the Yugaas Tech journey. Let's collaborate to unlock your full potential, leverage technology to its fullest, and achieve remarkable success. Together, we can navigate the complexities of the digital landscape and embrace a future of limitless possibilities. As we continue to drive tech transformation and empower businesses, Yugaas Tech remains committed to being a reliable and forward-looking partner for organizations worldwide. Join us in shaping a world where technology empowers and elevates everyone's potential. Empower Your Excellence. Choose <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span>.
-            </p>
+        <div class="pb-10 top-0 border-b shadow-sm  z-25">
+            <div class=" flex flex-col pt-10 px-4 md:px-20 ">
+                <p class=" text-3xl font-bold text-shadow-xs text-blue-700 md:text-4xl md:flex md:justify-center" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"">Customer-Centric<span class="md:mx-2" style="color: #FFA500;">Partnerships</span></p>
+                <p class="pt-6 text-xl md:text-2xl" style="font-family: 'Poppins', sans-serif;">
+                    Join the <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span> Journey Whether you are a large enterprise or a budding startup, we invite you to embark on the Yugaas Tech journey. Let's collaborate to unlock your full potential, leverage technology to its fullest, and achieve remarkable success. Together, we can navigate the complexities of the digital landscape and embrace a future of limitless possibilities. As we continue to drive tech transformation and empower businesses, Yugaas Tech remains committed to being a reliable and forward-looking partner for organizations worldwide. Join us in shaping a world where technology empowers and elevates everyone's potential. Empower Your Excellence. Choose <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span>.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
-       <div class="  pb-10 top-0 border-b shadow-sm  z-25">
-            <div class="flex flex-col pt-4 px-4 md:px-20">
-                <p class=" text-3xl font-bold text-blue-700 text-shadow-xs pl-10 md:text-4xl md:flex md:justify-center"> Vision <span class="text-black md:pl-2"> and</span> <span class="md:pl-2" style="color: #FFA500;"> Mission</span></p>
-                <p class=" font-bold tracking-wide text-2xl pt-4 md:flex md:justify-center md:text-3xl">Vision: <span class=" font-medium pt-2 pl-2"> Empowering Tech Transformation, Enabling Empowered Futures</span></p>
-                <p class=" font-normal tracking-wide text-xl pt-6 md:text-2xl">At <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span>, our vision is to lead the way in <span class="font-medium">"Empowering Tech Transformation, Enabling Empowered Futures"</span> We believe that technology is not just a tool but a catalyst for positive change. We envision a world where businesses and individuals leverage the full potential of technology to evolve, adapt, and thrive in an ever-changing landscape. <br> <br>
-                    Our vision goes beyond simply offering technology solutions; it encapsulates our commitment to driving meaningful transformation. We aspire to be the driving force behind our clients' success, empowering them with innovative and tailor-made solutions that create lasting impact and foster growth. <br> <br>
-                    With a firm belief in the power of technology to create a better future, our vision guides us in pushing boundaries, exploring new frontiers, and staying at the forefront of industry advancements. We seek to inspire, innovate, and empower, building a world where technology becomes an enabler of dreams and aspirations.</p>
-                <div class="pt-10">
-                    <p class=" font-bold text-2xl md:flex md:justify-center md:text-3xl">Mission: <span class=" font-medium pt-2 pl-2"> Empowering Excellence Through Tech-Driven Solutions</span></p>
-                    <p class=" font-normal tracking-wide text-xl pt-6 md:text-2xl">
-                        At <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span>, our mission is clear and purposeful - to empower excellence through tech-driven solutions. We are dedicated to delivering transformative technology and HR solutions that enable businesses to unleash their true potential and achieve excellence in every endeavour.
-                    </p>
-                </div>
-            </div>    
+        <div style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
+        <div class="  pb-10 top-0 border-b shadow-sm  z-25">
+                <div class="flex flex-col pt-4 px-4 md:px-20">
+                    <p class=" text-3xl font-bold text-blue-700 text-shadow-xs pl-10 md:text-4xl md:flex md:justify-center" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"> Vision <span class="text-black md:pl-2"> and</span> <span class="md:pl-2" style="color: #FFA500;"> Mission</span></p>
+                    <p class=" font-bold text-2xl pt-4 md:flex md:justify-center md:text-3xl" style="font-family: 'Poppins', sans-serif;">Vision: <span class=" font-medium pl-2"> Empowering Tech Transformation, Enabling Empowered Futures</span></p>
+                    <p class=" font-normal text-xl pt-6 md:text-2xl" style="font-family: 'Poppins', sans-serif;">At <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span>, our vision is to lead the way in <span class="font-medium">"Empowering Tech Transformation, Enabling Empowered Futures"</span> We believe that technology is not just a tool but a catalyst for positive change. We envision a world where businesses and individuals leverage the full potential of technology to evolve, adapt, and thrive in an ever-changing landscape. <br> <br>
+                        Our vision goes beyond simply offering technology solutions; it encapsulates our commitment to driving meaningful transformation. We aspire to be the driving force behind our clients' success, empowering them with innovative and tailor-made solutions that create lasting impact and foster growth. <br> <br>
+                        With a firm belief in the power of technology to create a better future, our vision guides us in pushing boundaries, exploring new frontiers, and staying at the forefront of industry advancements. We seek to inspire, innovate, and empower, building a world where technology becomes an enabler of dreams and aspirations.</p>
+                    <div class="pt-10" style="font-family: 'Poppins', sans-serif;">
+                        <p class=" font-bold text-2xl md:flex md:justify-center md:text-3xl">Mission: <span class=" font-medium pl-2"> Empowering Excellence Through Tech-Driven Solutions</span></p>
+                        <p class=" font-normal text-xl pt-6 md:text-2xl" >
+                            At <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span>, our mission is clear and purposeful - to empower excellence through tech-driven solutions. We are dedicated to delivering transformative technology and HR solutions that enable businesses to unleash their true potential and achieve excellence in every endeavour.
+                        </p>
+                    </div>
+                </div>    
+            </div>
         </div>
-    </div>
 
-    <div class="pb-10 top-0 border-b shadow-sm  z-25">
-        <div class="flex flex-col pt-4 ">
-            <p class="text-3xl text-shadow-xs tracking-wide text-blue-700 font-bold mx-4 md:mx-12 md:text-4xl md:flex md:justify-center"> Our mission is anchored in three key pillars:</p>
-            <div class="flex-row md:flex">
-                <div class=" flex flex-col pt-6">
-                    <p class=" text-2xl font-semibold mx-4 flex justify-center md:mx-12 md:text-3xl">"Excellence in Innovation"</p>
-                    <p class="text-xl flex justify-center pt-4 mx-4 md:mx-12 md:text-2xl">We thrive on innovation and are constantly on the lookout for emerging technologies and industry best practices. Our team of experts collaborates to craft cutting-edge solutions that address our clients' unique challenges and drive meaningful results. We see innovation as a powerful tool to create competitive advantages and open new horizons for our clients.
-                    </p>
+        <div class="pb-10 top-0 border-b shadow-sm  z-25">
+            <div class="flex flex-col pt-4 ">
+                <p class="text-3xl text-shadow-xs text-blue-700 font-bold mx-4 md:mx-12 md:text-4xl md:flex md:justify-center" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"> Our mission is anchored in three key pillars:</p>
+                <div class="flex-row md:flex">
+                    <div class=" flex flex-col pt-6">
+                        <p class=" text-2xl font-semibold mx-4 flex justify-center md:mx-12 md:text-3xl" style="font-family: 'Ubuntu', sans-serif; " >"Excellence in Innovation"</p>
+                        <p class="text-xl flex justify-center pt-4 mx-4 md:mx-12 md:text-2xl" style="font-family: 'Poppins', sans-serif;">We thrive on innovation and are constantly on the lookout for emerging technologies and industry best practices. Our team of experts collaborates to craft cutting-edge solutions that address our clients' unique challenges and drive meaningful results. We see innovation as a powerful tool to create competitive advantages and open new horizons for our clients.
+                        </p>
+                    </div>
+                    <div class=" flex flex-col pt-6 mx-4 md:mx-12">
+                        <p class=" text-2xl flex justify-center font-semibold md:text-3xl" style="font-family: 'Ubuntu', sans-serif; " >"Customer-Centric Approach"</p>
+                        <p class="text-xl font-normal flex justify-center pt-4 md:text-2xl" style="font-family: 'Poppins', sans-serif;">
+                            Our clients are at the heart of everything we do. We believe in building strong and enduring partnerships based on trust, transparency, and collaboration. By taking the time to understand our clients' specific needs and aspirations, we tailor our solutions to deliver exceptional value and create lasting impact.
+                        </p>
+                    </div>
                 </div>
                 <div class=" flex flex-col pt-6 mx-4 md:mx-12">
-                    <p class=" text-2xl flex justify-center font-semibold tracking-wide md:text-3xl">"Customer-Centric Approach"</p>
-                    <p class="text-xl font-normal flex justify-center pt-4 md:text-2xl">
-                        Our clients are at the heart of everything we do. We believe in building strong and enduring partnerships based on trust, transparency, and collaboration. By taking the time to understand our clients' specific needs and aspirations, we tailor our solutions to deliver exceptional value and create lasting impact.
+                    <p class=" text-2xl flex justify-center font-semibold md:text-3xl" style="font-family: 'Ubuntu', sans-serif; " >"Unwavering Commitment to Excellence"</p>
+                    <p class="text-xl font-normal flex justify-center pt-4 md:text-2xl" style="font-family: 'Poppins', sans-serif;">
+                        Our mission is a testament to our dedication to being a catalyst for our clients' success, propelling them towards empowered futures through transformative tech solutions. At Yugaas Tech, we are on a relentless pursuit of our vision and mission, embracing the power of technology to transform businesses, empower individuals, and shape a better, brighter future for all. With innovation, customer-centricity, and excellence as our guiding principles, we stand poised to make a positive impact on the world through technology-enabled empowerment. growth, learning, and creativity. By empowering our team members, we ensure exceptional service delivery and sustainable success.</div>
                     </p>
                 </div>
             </div>
-            <div class=" flex flex-col pt-6 mx-4 md:mx-12">
-                <p class=" text-2xl flex justify-center font-semibold tracking-wide md:text-3xl">"Unwavering Commitment to Excellence"</p>
-                <p class="text-xl font-normal flex justify-center pt-4 md:text-2xl">
-                    Our mission is a testament to our dedication to being a catalyst for our clients' success, propelling them towards empowered futures through transformative tech solutions. At Yugaas Tech, we are on a relentless pursuit of our vision and mission, embracing the power of technology to transform businesses, empower individuals, and shape a better, brighter future for all. With innovation, customer-centricity, and excellence as our guiding principles, we stand poised to make a positive impact on the world through technology-enabled empowerment. growth, learning, and creativity. By empowering our team members, we ensure exceptional service delivery and sustainable success.</div>
-                </p>
-            </div>
         </div>
-    </div>
-   
-    <div style="background-image: url('https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/logobg3.png?raw=true'); height: max-content;
-    width: auto;
-    background: cover;
-    background-repeat: no-repeat;
-    background-position: center center;">
-        <div class="pb-10 top-0 border-b shadow-sm  z-25">
-            <div class="flex flex-col pt-4 px-4 md:px-20">
-                <p class=" text-3xl tracking-wide text-shadow-xs font-bold flex justify-center md:text-4xl"> Our <span class=" text-blue-700 pl-4"> Logo</span></p>
-                <p class=" text-2xl tracking-wide md:flex md:justify-center pt-6 font-medium md:text-3xl">Explaining Our Logo: <span class="font-normal pl-2">"Elevating Potential, Empowering Success"</span></p>
-                <p class=" text-xl font-normal pt-6 md:text-2xl">Our logo is a symbol that represents the very essence of <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span> and the profound impact we strive to create in the world of technology and HR solutions. Let's delve into the elements and the underlying meaning of our logo: </p>
-                <p class="  text-2xl font-medium pt-6 text-blue-700 md:text-3xl">The Elephant Head: <span class=" text-xl pb-2 font-normal text-black md:text-2xl">
-                    At the heart of our logo stands the majestic and revered elephant head. The elephant is a symbol of strength, wisdom, and reliability. It embodies the core values that define Yugaas Tech as a company - our unwavering strength to face challenges, the wisdom to craft innovative solutions, and the reliability to consistently deliver exceptional results. This portrayal of an elephant head reflects our commitment to shouldering responsibilities with ease and confidence, making our clients' needs our top priority.
-                </span> </p>
-                <p class="  text-2xl font-medium pt-6 text-blue-700 md:text-3xl">The Wings: <span class=" text-xl pb-2 font-normal text-black md:text-2xl">
-                    The addition of wings to the elephant head introduces a transformative element to our logo. These wings symbolize our commitment to elevating our clients' potential and empowering their success. Just like the wings enable flight, our technology-driven solutions propel businesses to soar to new heights and achieve unprecedented growth. The wings also represent freedom, signifying the liberation from conventional boundaries, and encouraging a limitless pursuit of possibilities.
-                </span> </p>
-                <p class="  text-2xl font-medium pt-6 text-blue-700 md:text-3xl">Carrying Responsibility with Joy: <span class=" text-xl pb-2 font-normal text-black md:text-2xl">
-                    The joyful expression of the elephant in our logo represents our approach to embracing responsibilities with enthusiasm and a positive spirit. We understand that every task we take on is an opportunity to create a positive impact, and we carry each responsibility with genuine delight. Our clients' success is our success, and our logo conveys our unwavering commitment to carrying their goals and aspirations with a smile.
-                </span> </p>
-                <p class="  text-2xl font-medium pt-6 text-blue-700 md:text-3xl">Empowering Futures: <span class=" text-xl pb-2 font-normal text-black md:text-2xl">
-                    Ultimately, our logo serves as a visual testament to our vision - "Tech Transformation, Empowered Futures." It encapsulates our purpose to empower businesses, organizations, and individuals with the transformative power of technology. Yugaas Tech is driven by the belief that technology has the potential to revolutionize industries and elevate human potential. Through our expertise and innovative solutions, we empower our clients to embrace change, embrace success, and create a brighter future for themselves and their stakeholders.
-                </span> </p>
-                <p class="  text-xl font-medium pt-6 md:text-2xl ">
-                    As we look at our logo, we are reminded of the responsibility and honor it is to be entrusted with our clients' dreams and aspirations. We are dedicated to leveraging technology, fostering innovation, and supporting our clients on their journey to success. Our logo serves as a reminder of our commitment to stand strong, innovate relentlessly, and make our clients' aspirations take flight. With the strength of an elephant and the freedom of wings, Yugaas Tech is poised to make a difference in the world of technology and beyond, empowering businesses and individuals to achieve extraordinary feats.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="pb-10 top-0 border-b shadow-sm  z-25" style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
-        <div class="flex flex-col justify-start items-center text-white text-center p-4 lg:p-8">
-            <h1 class="text-4xl font-bold mb-4 text-blue-700">Our Values</h1>
-            <div class="mb-4 text-3xl font-semibold"  style="color: #FFA500;">Guiding Principles for Empowerment and Excellence
-            </div>
-            <div class=" text-xl text-black mx-4 md:mx-12 md:text-2xl">At Yugaas Tech, our values form the cornerstone of everything we do. They are the guiding principles that steer us towards empowering our clients and fostering excellence in our solutions. These values are not mere words on paper; they are the essence of our company culture, defining how we operate, collaborate, and achieve success together.
-            </div>
-        </div>
-    </div>
-    <div class="mt-6  flex-row text-xl mx-4 md:mx-12 md:grid md:grid-rows-auto md:grid-cols-2 md:gap-8">
-        <div class=" text-xl pb-2 text-black md:text-2xl">
-            <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl">1. Excellence:</span> Excellence is at the core of our identity. We are committed to delivering nothing short of the best for our clients. From the initial consultation to the final delivery, we strive for excellence in every aspect of our services. Our passion for excellence drives us to continually innovate, elevate our standards, and deliver solutions that exceed expectations.
-        </div>
-        <div class="text-xl pb-2 text-black md:text-2xl">
-            <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl">2. Innovation:</span> Innovation is the fuel that powers our journey. We embrace emerging technologies, trends, and best practices to stay ahead of the curve. Our team of skilled professionals and tech enthusiasts thrives on exploring new possibilities and finding creative solutions to complex challenges. We believe that innovation is the key to unlocking unprecedented opportunities for our clients.
-        </div>
-        <div class="text-xl pb-2 text-black md:text-2xl">
-            <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl">3. Integrity:</span> Integrity is the bedrock of our relationships with clients, partners, and team members. We uphold the highest ethical standards in all our interactions and business practices. Transparency and honesty are the cornerstones of our communication, ensuring that our clients trust us as their reliable partner.
-        </div>
-        <div class="text-xl pb-2 text-black md:text-2xl">
-            <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl">4. Empowerment:</span> Empowerment lies at the heart of our purpose. We are driven by a deep desire to empower businesses and individuals alike. Our solutions are crafted to be empowering, equipping our clients with the tools and insights they need to succeed. We also foster an employee-first culture, empowering our team members to grow, learn, and thrive in a supportive environment.
-        </div>
-        <div class="text-xl pb-2 text-black md:text-2xl">
-            <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl">5. Customer-Centricity:</span> Our clients are at the center of everything we do. We listen attentively to their needs, challenges, and aspirations, tailoring our solutions to provide maximum value. Customer satisfaction is our priority, and we go the extra mile to ensure that our clients' journey with us is smooth, collaborative, and rewarding.
-        </div>
-        <div class="text-xl pb-2 text-black md:text-2xl">
-            <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl"> 6. Commitment to Growth:</span> We believe in continual growth and development, both as individuals and as a company. We invest in our team members' professional development, providing them with the tools and opportunities to expand their skills and expertise. As a company, we continuously evolve, adapting to new technologies and industry trends to stay at the forefront of innovation.
-        </div>
-        <div class="text-xl pb-2 text-black md:text-2xl">
-            <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl">7. Teamwork and Collaboration:</span> We foster a culture of teamwork and collaboration, recognizing that the best results come from collective effort. Our diverse and talented team collaborates seamlessly, leveraging each other's strengths to deliver comprehensive and holistic solutions to our clients.
-            At Yugaas Tech, our values drive us to be more than just a technology and HR solutions provider. They empower us to make a lasting impact, building a future where technology creates new possibilities, businesses thrive, and individuals achieve remarkable success. Our values unite us in our pursuit of excellence, and we invite our clients and partners to join us on this transformative journey.
-        </div>
-    </div>
-
-    <div style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
-        <div class="pb-10 top-0 border-b shadow-sm  z-25">
-            <div class="flex-row justify-start items-center text-white text-center p-4 lg:p-8">
-            <h1 class="text-3xl font-bold mb-4 md:text-4xl text-black">Team Members</h1>
-            <div class="mb-4 space-y-6 md:flex md:justify-between md:space-x-16">
-                <div class="text-center flex-row item-center flex-shrink-0">
-                    <img class=" items-center pl-28" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Ellipse 13.png?raw=true" alt="" class=" ml-16">
-                    <div class=" text-xl font-bold mt-2 text-blue-700">Name</div><br>
-                    <div class="text-black text-xl font-medium ">I am frontend developer and web designer</div><br>
-                    <button class="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded mt-2" style="background-color: #B9AA28;">More</button>
-                </div>
-
-                <div class="text-center flex-shrink-0">
-                    <img class="pl-28" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Ellipse 13.png?raw=true" alt="" class=" ml-16">
-                    <div class=" text-xl font-bold mt-2 text-blue-700">Name</div><br>
-                    <div class="text-black text-xl font-medium ">I am frontend developer and web designer</div><br>
-                    <button class="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded mt-2" style="background-color: #B9AA28;">More</button>
-                </div>
-
-                <div class="text-center flex-shrink-0">
-                    <img class="pl-28" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Ellipse 13.png?raw=true" alt="" class=" ml-16">
-                    <div class=" text-xl font-bold mt-2 text-blue-700">Name</div><br>
-                    <div class="text-black text-xl font-medium">I am frontend developer and web designer</div><br>
-                    <button class="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded mt-2" style="background-color: #B9AA28;">More</button>
-                </div>
-            </div>
-            <div class="text-2xl font-bold pt-6 mx-4 text-blue-700 md:text-3xl md:mx-12">Our Team: Powering Innovation with Passion and Expertise</div>
-            <div class="text-xl text-black mx-4 md:text-2xl md:mx-12">At Yugaas Tech, our team is the driving force behind our success and the catalyst for empowering our clients with transformative solutions. We take immense pride in our diverse and talented group of professionals, each bringing their unique expertise, creativity, and dedication to the table. Together, we form a cohesive unit committed to innovation, excellence, and the pursuit of technological advancement.</div>
-        </div>
-        </div>
-    </div>
-    <div class="text-center">
-        <div class=" px-4 md:mx-12 p-4">
-
-            <div class="mb-4">
-                <h1 class="text-3xl font-bold text-yellow-500 md:text-4xl" style="color: #FFA500;">Strength in Diversity</h1><br>
-                <div class=" text-2xl">
-                    Our team is a mosaic of talents, encompassing a wide range of skills, backgrounds, and perspectives. From seasoned industry veterans to young tech enthusiasts, our diversity is our strength. It allows us to approach challenges from multiple angles, sparking creative solutions and fostering a culture of learning and growth.
-                </div>
-            </div><br>
-
-            <div class="mb-4">
-                <h1 class="text-3xl font-bold text-yellow-500" style="color: #FFA500;">Tech Enthusiasts and Innovators</h1><br>
-                <div class=" text-2xl">
-                    At the heart of our team lies a passion for technology and innovation. We are fervent tech enthusiasts who are always on the lookout for emerging trends, cutting-edge tools, and groundbreaking solutions. Our curiosity and drive to push boundaries empower us to deliver innovative and future-ready solutions to our clients.
-                </div>
-            </div><br>
-
-            <div class="mb-4">
-                <h1 class="text-3xl font-bold text-yellow-500" style="color: #FFA500;">Expertise and Experience</h1><br>
-                <div class=" text-2xl">
-                    Expertise is the bedrock of our team. With years of hands-on experience and a deep understanding of various domains, our team members bring a wealth of knowledge to every project. From technology consulting to HR management, our experts work collaboratively to craft tailored solutions that address the unique needs of our clients.
-                </div>
-            </div><br>
-
-            <div class="mb-4">
-                <h1 class="text-3xl font-bold text-yellow-500" style="color: #FFA500;">Collaboration and Teamwork</h1><br>
-                <div class=" text-2xl">
-                    Collaboration is in our DNA. We believe that the best outcomes are achieved through collective effort and synergy. Our team members collaborate seamlessly, leveraging each other's strengths to deliver comprehensive and holistic solutions. We foster an environment where every team member's voice is heard, valued, and contributes to the success of our projects.
-                </div>
-            </div><br>
-
-            <div class="mb-4">
-                <h1 class="text-3xl font-bold text-yellow-500" style="color: #FFA500;">Continuous Learning and Growth</h1><br>
-                <div class=" text-2xl">
-                    As technology is ever-evolving, we embrace a culture of continuous learning and growth. Our team members are encouraged to stay updated with the latest trends, tools, and industry best practices. We invest in their professional development, providing them with opportunities to expand their skills and expertise.
-                </div>
-            </div><br>
-
-            <div class="mb-4">
-                <h1 class="text-3xl font-bold text-yellow-500 md:text-4xl" style="color: #FFA500;">Customer-Centricity</h1><br>
-                <div class="text-2xl">
-                    Our clients are at the forefront of our minds in every decision we make. We listen attentively to their needs, challenges, and aspirations, ensuring that our solutions are tailor-made to deliver the highest value. Our customer-centric approach reflects our commitment to providing exceptional service and building strong, enduring relationships.
-                </div>
-            </div><br>
-
-            <div class="mb-4">
-                <h1 class="text-3xl font-bold text-yellow-500" style="color: #FFA500;">Empowerment and Well-Being</h1><br>
-                <div class="text-2xl">
-                    At Yugaas Tech, we prioritize the well-being and empowerment of our team members. We believe that a happy and motivated team is key to delivering outstanding results. We foster an employee-first culture that nurtures growth, celebrates achievements, and encourages a healthy work-life balance.
-                </div>
-            </div><br>
-
-            <div>
-                <h1 class="text-3xl font-bold text-yellow-500" style="color: #FFA500;">Join Us on the Journey of Empowerment</h1><br>
-                <div class="text-2xl">
-                    Our team is at the core of our mission to empower tech transformation and enable a brighter future. Together, we embark on a journey of innovation, creativity, and empowerment. Join us at Yugaas Tech and experience the power of passion-driven innovation, where technology becomes a catalyst for greatness.
-                </div><br>
-            </div>
-        </div>
-    </div>
-    <div class="pb-10 top-0 border-b shadow-sm  z-25" style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
-            <div class="flex flex-col justify-center items-center text-white mx-4 md:mx-12">
-                <div class="text-3xl font-bold text-blue-700 md:text-4xl">
-                    Our Goals
-                </div>
-                <div class="text-xl font-medium md:text-2xl text-center" style="color: #FFA500;">
-                    <span class="  text-2xl font-semibold md:text-3xl text-blue-700 pt-6">Our Values:</span> Guiding Principles for Empowerment and Excellence
-                </div>
-                <div class="text-xl text-center spt-6 text-black md:text-2xl">
-                    At Yugaas Tech, our values form the cornerstone of everything we do. They are the guiding principles that steer us towards empowering our clients and fostering excellence in our solutions. These values are not mere words on paper; they are the essence of our company culture, defining how we operate, collaborate, and achieve success together.
-                </div>
-            </div>
     
+        <div style="background-image: url('https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/logobg3.png?raw=true'); height: max-content;
+        width: auto;
+        background: cover;
+        background-repeat: no-repeat;
+        background-position: center center;">
+            <div class="pb-10 top-0 border-b shadow-sm  z-25">
+                <div class="flex flex-col pt-4 px-4 md:px-20" style="font-family: 'Poppins', sans-serif;">
+                    <p class=" text-3xl text-shadow-xs font-bold flex justify-center md:text-4xl text-blue-700" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"> Our <span class=" text-blue-700 pl-4"> Logo</span></p>
+                    <p class=" text-2xl md:flex md:justify-center pt-6 font-medium md:text-3xl">Explaining Our Logo: <span class="font-normal pl-2">"Elevating Potential, Empowering Success"</span></p>
+                    <p class=" text-xl font-normal pt-6 md:text-2xl">Our logo is a symbol that represents the very essence of <span class=" font-medium" style="color: #FFA500;">yugaas</span><span class="text-blue-700 font-medium">tech</span> and the profound impact we strive to create in the world of technology and HR solutions. Let's delve into the elements and the underlying meaning of our logo: </p>
+                    <center>
+                    <input class=" text-white text-xl font-medium text-center w-36 h-10 rounded-lg shadow border-2 border-white cursor-pointer hover:scale-105 transition-transform duration-150 ease-in-out my-5" style="background-color: #374151; font-family: 'Poppins', sans-serif " type="button" value="Explore" onclick="toggleP()">
+                    </center>
+                    <p class=" toggle-paragraph hidden-paragraph text-2xl font-medium pt-6 text-blue-700 md:text-3xl ">The Elephant Head: <span class=" text-xl pb-2 font-normal text-black md:text-2xl">
+                        At the heart of our logo stands the majestic and revered elephant head. The elephant is a symbol of strength, wisdom, and reliability. It embodies the core values that define Yugaas Tech as a company - our unwavering strength to face challenges, the wisdom to craft innovative solutions, and the reliability to consistently deliver exceptional results. This portrayal of an elephant head reflects our commitment to shouldering responsibilities with ease and confidence, making our clients' needs our top priority.
+                    </span> </p>
+                    <p class=" toggle-paragraph hidden-paragraph text-2xl font-medium pt-6 text-blue-700 md:text-3xl">The Wings: <span class=" text-xl pb-2 font-normal text-black md:text-2xl">
+                        The addition of wings to the elephant head introduces a transformative element to our logo. These wings symbolize our commitment to elevating our clients' potential and empowering their success. Just like the wings enable flight, our technology-driven solutions propel businesses to soar to new heights and achieve unprecedented growth. The wings also represent freedom, signifying the liberation from conventional boundaries, and encouraging a limitless pursuit of possibilities.
+                    </span> </p>
+                    <p  class=" toggle-paragraph hidden-paragraph text-2xl font-medium pt-6 text-blue-700 md:text-3xl">Carrying Responsibility with Joy: <span class=" text-xl pb-2 font-normal text-black md:text-2xl">
+                        The joyful expression of the elephant in our logo represents our approach to embracing responsibilities with enthusiasm and a positive spirit. We understand that every task we take on is an opportunity to create a positive impact, and we carry each responsibility with genuine delight. Our clients' success is our success, and our logo conveys our unwavering commitment to carrying their goals and aspirations with a smile.
+                    </span> </p>
+                    <p class=" toggle-paragraph hidden-paragraph text-2xl font-medium pt-6 text-blue-700 md:text-3xl">Empowering Futures: <span class=" text-xl pb-2 font-normal text-black md:text-2xl">
+                        Ultimately, our logo serves as a visual testament to our vision - "Tech Transformation, Empowered Futures." It encapsulates our purpose to empower businesses, organizations, and individuals with the transformative power of technology. Yugaas Tech is driven by the belief that technology has the potential to revolutionize industries and elevate human potential. Through our expertise and innovative solutions, we empower our clients to embrace change, embrace success, and create a brighter future for themselves and their stakeholders.
+                    </span> </p>
+                    <p class=" toggle-paragraph  hidden-paragraph text-xl font-medium pt-6 md:text-2xl ">
+                        As we look at our logo, we are reminded of the responsibility and honor it is to be entrusted with our clients' dreams and aspirations. We are dedicated to leveraging technology, fostering innovation, and supporting our clients on their journey to success. Our logo serves as a reminder of our commitment to stand strong, innovate relentlessly, and make our clients' aspirations take flight. With the strength of an elephant and the freedom of wings, Yugaas Tech is poised to make a difference in the world of technology and beyond, empowering businesses and individuals to achieve extraordinary feats.
+                    </p>
+                    <script>
+                        function toggleP() {
+                            const paragraphs = document.querySelectorAll('.toggle-paragraph');
+                            paragraphs.forEach(p => {
+                                p.classList.toggle('hidden-paragraph');
+                            });
+                        }
+                    </script> 
+                </div>
+            </div>
+        <div class="pb-10 top-0 border-b shadow-sm  z-25" style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
+            <div class="flex flex-col justify-start items-center text-white text-center p-4 lg:p-8">
+                <h1 class="text-3xl font-bold mb-4 text-blue-700 md:text-4xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Our Values</h1>
+                <div class="mb-4 text-2xl font-medium pt-6 md:text-3xl"  style="color: #FFA500; font-family: 'Poppins', sans-serif;">Guiding Principles for Empowerment and Excellence
+                </div>
+                <div class=" text-xl font-normal text-black pt-4 md:text-2xl" style="font-family: 'Poppins', sans-serif;">At Yugaas Tech, our values form the cornerstone of everything we do. They are the guiding principles that steer us towards empowering our clients and fostering excellence in our solutions. These values are not mere words on paper; they are the essence of our company culture, defining how we operate, collaborate, and achieve success together.
+                    <center>
+                    <button id="toggleButton" class=" text-white text-xl font-medium text-center w-36 h-10 rounded-lg shadow border-2 border-white cursor-pointer hover:scale-105 transition-transform duration-150 ease-in-out my-5" style="background-color: #374151; font-family: 'Poppins', sans-serif ">Explore</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content-container hidden">
+        <div class="mt-6  flex-row text-xl mx-4 md:mx-12 md:grid md:grid-rows-auto md:grid-cols-2 md:gap-8" style="font-family: 'Poppins', sans-serif;">
+            <div class=" text-xl pb-2 text-black md:text-2xl">
+                <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl">1. Excellence:</span> Excellence is at the core of our identity. We are committed to delivering nothing short of the best for our clients. From the initial consultation to the final delivery, we strive for excellence in every aspect of our services. Our passion for excellence drives us to continually innovate, elevate our standards, and deliver solutions that exceed expectations.
+            </div>
+            <div class="text-xl pb-2 text-black md:text-2xl">
+                <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl">2. Innovation:</span> Innovation is the fuel that powers our journey. We embrace emerging technologies, trends, and best practices to stay ahead of the curve. Our team of skilled professionals and tech enthusiasts thrives on exploring new possibilities and finding creative solutions to complex challenges. We believe that innovation is the key to unlocking unprecedented opportunities for our clients.
+            </div>
+            <div class="text-xl pb-2 text-black md:text-2xl">
+                <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl">3. Integrity:</span> Integrity is the bedrock of our relationships with clients, partners, and team members. We uphold the highest ethical standards in all our interactions and business practices. Transparency and honesty are the cornerstones of our communication, ensuring that our clients trust us as their reliable partner.
+            </div>
+            <div class="text-xl pb-2 text-black md:text-2xl">
+                <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl">4. Empowerment:</span> Empowerment lies at the heart of our purpose. We are driven by a deep desire to empower businesses and individuals alike. Our solutions are crafted to be empowering, equipping our clients with the tools and insights they need to succeed. We also foster an employee-first culture, empowering our team members to grow, learn, and thrive in a supportive environment.
+            </div>
+            <div class="text-xl pb-2 text-black md:text-2xl">
+                <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl">5. Customer-Centricity:</span> Our clients are at the center of everything we do. We listen attentively to their needs, challenges, and aspirations, tailoring our solutions to provide maximum value. Customer satisfaction is our priority, and we go the extra mile to ensure that our clients' journey with us is smooth, collaborative, and rewarding.
+            </div>
+            <div class="text-xl pb-2 text-black md:text-2xl">
+                <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl"> 6. Commitment to Growth:</span> We believe in continual growth and development, both as individuals and as a company. We invest in our team members' professional development, providing them with the tools and opportunities to expand their skills and expertise. As a company, we continuously evolve, adapting to new technologies and industry trends to stay at the forefront of innovation.
+            </div>
+            <div class="text-xl pb-2 text-black md:text-2xl">
+                <span class="text-2xl font-medium pt-6 text-blue-700 md:text-3xl">7. Teamwork and Collaboration:</span> We foster a culture of teamwork and collaboration, recognizing that the best results come from collective effort. Our diverse and talented team collaborates seamlessly, leveraging each other's strengths to deliver comprehensive and holistic solutions to our clients.
+                At Yugaas Tech, our values drive us to be more than just a technology and HR solutions provider. They empower us to make a lasting impact, building a future where technology creates new possibilities, businesses thrive, and individuals achieve remarkable success. Our values unite us in our pursuit of excellence, and we invite our clients and partners to join us on this transformative journey.
+            </div>
+        </div>
+        </div>
 
-        <div class="  mt-4 mb-4 mx-4 md:mx-12  " >
-            <div class="mb-4">
-            <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">1. Automation:</span>
-            <span class="text-xl ml-2">Our goal is to streamline and automate our customers' processes, reducing manual efforts, and increasing operational efficiency. Through intelligent automation, we enable them to focus on strategic initiatives while enhancing productivity and cost-effectiveness.</span>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            const toggleButton = document.getElementById("toggleButton");
+            const contentContainer = document.querySelector(".content-container");
+
+            toggleButton.addEventListener("click", function () {
+                if (contentContainer.style.display === "none") {
+                    contentContainer.style.display = "block";
+                } else {
+                    contentContainer.style.display = "none";
+                }
+            });
+        });
+
+        </script>
+
+        <div style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
+            <div class="pb-10 top-0 border-b shadow-sm z-25">
+                <div class="flex-row justify-center items-center text-white text-center p-4 lg:p-8" style="font-family: 'Poppins', sans-serif;">
+                    <h1 class="text-3xl font-bold mb-4 md:text-4xl text-black" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Team Members</h1>
+                    <div class="block md:flex items-center text-center mt-10">
+                        <div class="flex flex-col items-center justify-center text-center mx-4 mb-4">
+                            <img class="" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Ellipse 13.png?raw=true" alt="" class=" ml-16">
+                            <div class=" text-xl font-bold mt-2 text-blue-700">Name</div><br>
+                            <div class="text-black text-xl font-medium ">I am frontend developer and web designer</div><br>
+                            <button class="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded mt-2" style="background-color: #B9AA28;">More</button>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center text-center mx-4 mb-4">
+                            <img class="" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Ellipse 13.png?raw=true" alt="" class=" ml-16">
+                            <div class=" text-xl font-bold mt-2 text-blue-700">Name</div><br>
+                            <div class="text-black text-xl font-medium ">I am frontend developer and web designer</div><br>
+                            <button class="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded mt-2" style="background-color: #B9AA28;">More</button>
+                        </div>
+
+                        <div class="flex flex-col items-center justify-center text-center mx-4 mb-4" style="font-family: 'Poppins', sans-serif;">
+                            <img class="" src="https://github.com/Deepakraja03/yugaastech/blob/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/Ellipse 13.png?raw=true" alt="" class=" ml-16">
+                            <div class=" text-xl font-bold mt-2 text-blue-700">Name</div><br>
+                            <div class="text-black text-xl font-medium">I am frontend developer and web designer</div><br>
+                            <button class="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded mt-2" style="background-color: #B9AA28;">More</button>
+                        </div>
+                    </div>
+                    <div class="text-2xl font-bold pt-6 mx-4 text-blue-700 md:text-3xl md:mx-12">Our Team: Powering Innovation with Passion and Expertise</div>
+                    <div class="text-xl text-black mx-4 md:text-2xl md:mx-12" style="font-family: 'Poppins', sans-serif;">At Yugaas Tech, our team is the driving force behind our success and the catalyst for empowering our clients with transformative solutions. We take immense pride in our diverse and talented group of professionals, each bringing their unique expertise, creativity, and dedication to the table. Together, we form a cohesive unit committed to innovation, excellence, and the pursuit of technological advancement.</div>
             </div>
-            <div class="mb-4">
-            <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">2. Business Alignment:</span>
-            <span class="text-xl ml-2">We aim to align our solutions with our customers' business goals and strategies. By understanding their vision and requirements, we develop technology and HR solutions that are tailored to their specific needs, contributing to the overall success of their organization.</span>
-            </div>
-            <div class="mb-4">
-            <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">3. Transformed Solutions:</span>
-            <span class="text-xl ml-2">Our goal is to transform our customers' businesses by leveraging cutting-edge technology and HR practices. We strive to provide solutions that catalyze growth, optimize workflows, and create a competitive edge in their respective industries.</span>
             </div>
         </div>
-        <div class="mt-4 mb-4 m-12  mx-4 md:mx-12" >
-            <div class="mb-4 ">
-            <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">4. Revolutionary Pricing Model:</span>
-            <span class="text-xl ml-2">One of our key goals is to offer revolutionary pricing models that break the traditional cost barriers associated with technology and HR services. Our disruptive pricing ensures that businesses of all sizes can access top-notch solutions without compromising on quality.</span>
-            </div>
-            <div class="mb-4 ">
-            <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">5. Enhance Productivity and Efficiency:</span>
-            <span class="text-xl ml-2">Through automation and optimized processes, our customers experience increased productivity, reduced errors, and streamlined workflows, allowing them to focus on core business functions and achieve more in less time.</span>
-            </div>
-            <div class="mb-4 ">
-            <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">6. Improve Talent Acquisition and Management:</span>
-            <span class="text-xl ml-2">Our HR solutions enable our customers to attract, hire, and retain top talent. We offer innovative talent acquisition and workforce management services that strengthen their human capital and create a competitive advantage.</span>
+        <div class="text-center">
+            <div class=" px-4 md:mx-12 p-4">
+
+                <div class="mb-4">
+                    <h1 class="text-3xl font-bold text-yellow-500 md:text-4xl" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">Strength in Diversity</h1><br>
+                    <div class=" text-2xl" style="font-family: 'Poppins', sans-serif;">
+                        Our team is a mosaic of talents, encompassing a wide range of skills, backgrounds, and perspectives. From seasoned industry veterans to young tech enthusiasts, our diversity is our strength. It allows us to approach challenges from multiple angles, sparking creative solutions and fostering a culture of learning and growth.
+                    </div>
+                </div><br>
+
+                <div class="mb-4">
+                    <h1 class="text-3xl font-bold text-yellow-500" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"">Tech Enthusiasts and Innovators</h1><br>
+                    <div class=" text-2xl" style="font-family: 'Poppins', sans-serif;">
+                        At the heart of our team lies a passion for technology and innovation. We are fervent tech enthusiasts who are always on the lookout for emerging trends, cutting-edge tools, and groundbreaking solutions. Our curiosity and drive to push boundaries empower us to deliver innovative and future-ready solutions to our clients.
+                    </div>
+                </div><br>
+
+                <div class="mb-4">
+                    <h1 class="text-3xl font-bold text-yellow-500" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"">Expertise and Experience</h1><br>
+                    <div class=" text-2xl" style="font-family: 'Poppins', sans-serif;">
+                        Expertise is the bedrock of our team. With years of hands-on experience and a deep understanding of various domains, our team members bring a wealth of knowledge to every project. From technology consulting to HR management, our experts work collaboratively to craft tailored solutions that address the unique needs of our clients.
+                    </div>
+                </div><br>
+
+                <div class="mb-4">
+                    <h1 class="text-3xl font-bold text-yellow-500" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"">Collaboration and Teamwork</h1><br>
+                    <div class=" text-2xl" style="font-family: 'Poppins', sans-serif;">
+                        Collaboration is in our DNA. We believe that the best outcomes are achieved through collective effort and synergy. Our team members collaborate seamlessly, leveraging each other's strengths to deliver comprehensive and holistic solutions. We foster an environment where every team member's voice is heard, valued, and contributes to the success of our projects.
+                    </div>
+                </div><br>
+
+                <div class="mb-4">
+                    <h1 class="text-3xl font-bold text-yellow-500" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"">Continuous Learning and Growth</h1><br>
+                    <div class=" text-2xl"style="font-family: 'Poppins', sans-serif;">
+                        As technology is ever-evolving, we embrace a culture of continuous learning and growth. Our team members are encouraged to stay updated with the latest trends, tools, and industry best practices. We invest in their professional development, providing them with opportunities to expand their skills and expertise.
+                    </div>
+                </div><br>
+
+                <div class="mb-4">
+                    <h1 class="text-3xl font-bold text-yellow-500 md:text-4xl" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"">Customer-Centricity</h1><br>
+                    <div class="text-2xl"style="font-family: 'Poppins', sans-serif;">
+                        Our clients are at the forefront of our minds in every decision we make. We listen attentively to their needs, challenges, and aspirations, ensuring that our solutions are tailor-made to deliver the highest value. Our customer-centric approach reflects our commitment to providing exceptional service and building strong, enduring relationships.
+                    </div>
+                </div><br>
+
+                <div class="mb-4">
+                    <h1 class="text-3xl font-bold text-yellow-500" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"">Empowerment and Well-Being</h1><br>
+                    <div class="text-2xl"style="font-family: 'Poppins', sans-serif;">
+                        At Yugaas Tech, we prioritize the well-being and empowerment of our team members. We believe that a happy and motivated team is key to delivering outstanding results. We foster an employee-first culture that nurtures growth, celebrates achievements, and encourages a healthy work-life balance.
+                    </div>
+                </div><br>
+
+                <div>
+                    <h1 class="text-3xl font-bold text-yellow-500" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"">Join Us on the Journey of Empowerment</h1><br>
+                    <div class="text-2xl" style="font-family: 'Poppins', sans-serif;">
+                        Our team is at the core of our mission to empower tech transformation and enable a brighter future. Together, we embark on a journey of innovation, creativity, and empowerment. Join us at Yugaas Tech and experience the power of passion-driven innovation, where technology becomes a catalyst for greatness.
+                    </div><br>
+                </div>
             </div>
         </div>
-        <div class="mt-4 mb-4 mx-4 md:mx-12 ">
-            <div class="mb-4 ">
-            <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">7. Stay Ahead in Technology and Innovation:</span>
-            <span class="text-xl ml-2">With our commitment to embracing AI-driven tech platforms and staying at the forefront of technological advancements, our customers gain access to the latest innovations, ensuring they stay ahead of their competition.</span>
+        <div class="pb-10 top-0 border-b shadow-sm  z-25 " style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
+                <div class="flex flex-col justify-center items-center text-white mx-4 md:mx-12 ">
+                    <div class="text-3xl font-bold text-blue-700 md:text-4xl" style="font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"></div>>
+                        Our Goals
+                    </div>
+                    <div class="font-medium text-2xl  text-center mx-4 md:text-3xl md:mx-12" style="color: #FFA500; font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;">
+                        <span class="  font-semibold  text-blue-700 pt-6">Our Values:</span> Guiding Principles for Empowerment and Excellence
+                    </div>
+                    <div class="text-xl text-center pt-6 text-black md:text-2xl mx-4 md:mx-12" style="font-family: 'Poppins', sans-serif;">
+                        At Yugaas Tech, our values form the cornerstone of everything we do. They are the guiding principles that steer us towards empowering our clients and fostering excellence in our solutions. These values are not mere words on paper; they are the essence of our company culture, defining how we operate, collaborate, and achieve success together.
+                    </div>
+                    <center class="pt-6" >
+                        <input class="text-white text-xl font-medium text-center w-36 h-10 rounded-lg shadow border-2 mx-auto border-white cursor-pointer hover:scale-105 transition-transform duration-150 ease-in-out" style="background-color: #374151; font-family: 'Poppins', sans-serif " type="button" value="Explore" onclick="toggleP()">    
+                    </center>
+                </div>
+            
+            
+            <div class="  mt-4 mb-4 mx-4 md:mx-12" style="font-family: 'Poppins', sans-serif;" >
+                <div class=" toggle-paragraph hidden-paragraph mb-4">
+                <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">Automation:</span>
+                <span class="text-xl ml-2">Our goal is to streamline and automate our customers' processes, reducing manual efforts, and increasing operational efficiency. Through intelligent automation, we enable them to focus on strategic initiatives while enhancing productivity and cost-effectiveness.</span>
+                </div>
+                <div class=" toggle-paragraph hidden-paragraph mb-4">
+                <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">Business Alignment:</span>
+                <span class="text-xl ml-2">We aim to align our solutions with our customers' business goals and strategies. By understanding their vision and requirements, we develop technology and HR solutions that are tailored to their specific needs, contributing to the overall success of their organization.</span>
+                </div>
+                <div class=" toggle-paragraph hidden-paragraph mb-4">
+                <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">Transformed Solutions:</span>
+                <span class="text-xl ml-2">Our goal is to transform our customers' businesses by leveraging cutting-edge technology and HR practices. We strive to provide solutions that catalyze growth, optimize workflows, and create a competitive edge in their respective industries.</span>
+                </div>
             </div>
-            <div class="mb-4 ">
-            <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">8. Optimize IT Infrastructure and Services:</span>
-            <span class="text-xl ml-2">Our technology services help our customers optimize their IT infrastructure, leverage technology platforms, and enhance their overall IT operations. We provide expert IT consulting and managed services that ensure a smooth and efficient IT environment.</span>
+            <div class="mt-4 mb-4 m-12  mx-4 md:mx-12" style="font-family: 'Poppins', sans-serif;" >
+                <div class=" toggle-paragraph hidden-paragraph mb-4">
+                <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">Revolutionary Pricing Model:</span>
+                <span class="text-xl ml-2">One of our key goals is to offer revolutionary pricing models that break the traditional cost barriers associated with technology and HR services. Our disruptive pricing ensures that businesses of all sizes can access top-notch solutions without compromising on quality.</span>
+                </div>
+                <div class=" toggle-paragraph hidden-paragraph mb-4 ">
+                <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">Enhance Productivity and Efficiency:</span>
+                <span class="text-xl ml-2">Through automation and optimized processes, our customers experience increased productivity, reduced errors, and streamlined workflows, allowing them to focus on core business functions and achieve more in less time.</span>
+                </div>
+                <div class=" toggle-paragraph hidden-paragraph mb-4 ">
+                <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">Improve Talent Acquisition and Management:</span>
+                <span class="text-xl ml-2">Our HR solutions enable our customers to attract, hire, and retain top talent. We offer innovative talent acquisition and workforce management services that strengthen their human capital and create a competitive advantage.</span>
+                </div>
             </div>
-            <div class="mb-4 ">
-            <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">9. Strengthen Cybersecurity Posture:</span>
-            <span class="text-xl ml-2">We are dedicated to fortifying our customers' cybersecurity defenses. Our comprehensive cybersecurity services protect their valuable assets, detect and respond to threats, and ensure compliance with industry regulations.</span>
+            <div class="mt-4 mb-4 mx-4 md:mx-12 " style="font-family: 'Poppins', sans-serif;">
+                <div class=" toggle-paragraph hidden-paragraph mb-4 ">
+                <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">Stay Ahead in Technology and Innovation:</span>
+                <span class="text-xl ml-2">With our commitment to embracing AI-driven tech platforms and staying at the forefront of technological advancements, our customers gain access to the latest innovations, ensuring they stay ahead of their competition.</span>
+                </div>
+                <div class=" toggle-paragraph hidden-paragraph mb-4 ">
+                <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">Optimize IT Infrastructure and Services:</span>
+                <span class="text-xl ml-2">Our technology services help our customers optimize their IT infrastructure, leverage technology platforms, and enhance their overall IT operations. We provide expert IT consulting and managed services that ensure a smooth and efficient IT environment.</span>
+                </div>
+                <div class=" toggle-paragraph hidden-paragraph mb-4 ">
+                <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">Strengthen Cybersecurity Posture:</span>
+                <span class="text-xl ml-2">We are dedicated to fortifying our customers' cybersecurity defenses. Our comprehensive cybersecurity services protect their valuable assets, detect and respond to threats, and ensure compliance with industry regulations.</span>
+                </div>
             </div>
-        </div>
-        <div class="mt-4 mb-4 mx-4 md:mx-12">
-            <div class="mb-4">
-            <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">10. Cultivate a Learning and Growth Culture:</span>
-            <span class="text-xl ml-2">Through our Learning Academy and Finishing School initiatives, our customers can foster a culture of learning and growth within their organization. This helps employees enhance their skills, boost productivity, and drive innovation.</span>
+            <div class="mt-4 mb-4 mx-4 md:mx-12">
+                <div class=" toggle-paragraph hidden-paragraph mb-4">
+                <span class="font-bold text-blue-gray-500 text-xl md:text-2xl text-blue-700">Cultivate a Learning and Growth Culture:</span>
+                <span class="text-xl ml-2">Through our Learning Academy and Finishing School initiatives, our customers can foster a culture of learning and growth within their organization. This helps employees enhance their skills, boost productivity, and drive innovation.</span>
+                </div>
+            </div>
+
+            <script>
+                function toggleP() {
+                    const paragraphs = document.querySelectorAll('.toggle-paragraph');
+                    paragraphs.forEach(p => {
+                        p.classList.toggle('hidden-paragraph');
+                    });
+                }
+            </script> 
+        
+            
+        <div class="pb-10 pt-10 top-0 border-b shadow-sm  z-25" style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
+            <div class=" mx-4 md:mx-12 " style="font-family: 'Poppins', sans-serif;">
+                <h1 class="text-3xl font-medium mb-4 text-center md:text-4xl" style=" font-family: 'Ubuntu', sans-serif; text-shadow: 0px 1px 2px #333;"><span class="font-semibold" style="color: #FFA500;" >Our Differentiators:</span> Empowering Success with a Distinct Edge</h1>
+                <div class="text-xl mb-4 text-center font-medium ">At yugaastech, what sets us apart goes beyond our expertise; it lies in our unwavering commitment to a set of core differentiators that define who we are and how we serve our clients. These differentiators are the pillars that empower our clients' success and make us a standout partner in the technology and HR solutions landscape.</div>
+                <div class="text-xl mb-4"><p class="font-bold text-2xl text-blue-700">Driven by Passion:</p><div class="content">Passion fuels everything we do. We are not just a tech company; we are a team of tech enthusiasts who are genuinely passionate about leveraging technology to create a positive impact. Our passion drives us to explore new horizons, embrace innovation, and continuously push the boundaries of what's possible.</div></div>    
+                <div class="text-xl mb-4"><p class="font-bold text-2xl text-blue-700">Employee First, Others Next:</p><div class="content">At Yugaas Tech, we firmly believe that an empowered team translates into empowered solutions. We prioritize our team members' well-being, growth, and happiness, knowing that a motivated team is the key to delivering exceptional results. A culture that puts employees first fosters a collaborative and innovative environment, benefiting both our team and our valued clients.</div></div>    
+                <div class="text-xl mb-4"><p class="font-bold text-2xl text-blue-700">Uncompromising Quest for Quality:</p><div class="content">Quality is the hallmark of our solutions. We leave no room for compromise when it comes to delivering excellence. From the conceptualization stage to final delivery, every aspect of our services undergoes rigorous testing and scrutiny to ensure we meet the highest standards of quality and precision.</div></div>    
+                <div class="text-xl mb-4"><p class="font-bold text-2xl text-blue-700">Expert Panel Reviews:</p><div class="content"> Our commitment to quality is further strengthened by our expert panel reviews. We subject our deliverables to thorough evaluations conducted by esteemed mentors, who are industry CXOs. This expert oversight guarantees that our solutions are cutting-edge, well-crafted, and ready to make a significant impact on your business.</div></div>    
+                <div class="text-xl mb-4"><p class="font-bold text-2xl text-blue-700">Embrace of AI-Based Tech-Driven Platforms:</p><div class="content">In a world where technology evolves rapidly, we stay ahead of the curve by embracing AI-based tech-driven platforms as a fundamental principle. By integrating artificial intelligence and advanced technologies into our solutions, we empower our clients with transformative capabilities that drive efficiency, innovation, and competitive advantage.</div></div>    
+                <div class="text-xl mb-4"><p class="font-bold text-2xl text-blue-700">Disruptive Pricing:</p><div class="content">At Yugaas Tech, we believe that transformative technology solutions should be accessible to all, regardless of their size or budget. Our disruptive pricing models challenge conventional norms, making cutting-edge technology and HR services affordable and within reach for businesses of all scales. We redefine value by providing high-quality solutions that won't break the bank.</div></div>    
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="pb-10 pt-10 top-0 border-b shadow-sm  z-25" style="background-image: url('https://raw.githubusercontent.com/Deepakraja03/yugaastech/16e3749c547b31ea9ad97a3f812044b41c3e2d95/templates/images/blueorange1.jpg');">
-        <div class=" mx-4 md:mx-12 ">
-            <h1 class="text-3xl font-medium mb-4 text-center md:text-4xl"><span class="font-semibold" style="color: #FFA500;">Our Differentiators:</span> Empowering Success with a Distinct Edge</h1>
-            <div class="text-xl mb-4 text-center font-medium ">At yugaastech, what sets us apart goes beyond our expertise; it lies in our unwavering commitment to a set of core differentiators that define who we are and how we serve our clients. These differentiators are the pillars that empower our clients' success and make us a standout partner in the technology and HR solutions landscape.</div>
-            <div class="text-xl mb-4  "> <span class="font-bold text-2xl text-blue-700">1.Driven by Passion:</span> Passion fuels everything we do. We are not just a tech company; we are a team of tech enthusiasts who are genuinely passionate about leveraging technology to create a positive impact. Our passion drives us to explore new horizons, embrace innovation, and continuously push the boundaries of what's possible.</div>
-            <div class="text-xl mb-4  "> <span class="font-bold text-2xl text-blue-700">2.Employee First, Others Next:</span> At Yugaas Tech, we firmly believe that an empowered team translates into empowered solutions. We prioritize our team members' well-being, growth, and happiness, knowing that a motivated team is the key to delivering exceptional results. A culture that puts employees first fosters a collaborative and innovative environment, benefiting both our team and our valued clients.</div>
-            <div class="text-xl mb-4  "> <span class="font-bold text-2xl text-blue-700">3.Uncompromising Quest for Quality:</span> Quality is the hallmark of our solutions. We leave no room for compromise when it comes to delivering excellence. From the conceptualization stage to final delivery, every aspect of our services undergoes rigorous testing and scrutiny to ensure we meet the highest standards of quality and precision.</div>
-            <div class="text-xl mb-4  "><span class="font-bold text-2xl  text-blue-700">4.Expert Panel Reviews:</span> Our commitment to quality is further strengthened by our expert panel reviews. We subject our deliverables to thorough evaluations conducted by esteemed mentors, who are industry CXOs. This expert oversight guarantees that our solutions are cutting-edge, well-crafted, and ready to make a significant impact on your business.</div>
-            <div class="text-xl mb-4  "> <span class="font-bold text-2xl text-blue-700">5.Embrace of AI-Based Tech-Driven Platforms:</span> In a world where technology evolves rapidly, we stay ahead of the curve by embracing AI-based tech-driven platforms as a fundamental principle. By integrating artificial intelligence and advanced technologies into our solutions, we empower our clients with transformative capabilities that drive efficiency, innovation, and competitive advantage.</div>
-            <div class="text-xl mb-4  "><span class="font-bold text-2xl  text-blue-700">6.Disruptive Pricing:</span> At Yugaas Tech, we believe that transformative technology solutions should be accessible to all, regardless of their size or budget. Our disruptive pricing models challenge conventional norms, making cutting-edge technology and HR services affordable and within reach for businesses of all scales. We redefine value by providing high-quality solutions that won't break the bank.</div>
-        </div>
-    </div>
-
-
 
  
       {% include 'footer.html' %}
